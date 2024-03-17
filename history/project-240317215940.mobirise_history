@@ -1,0 +1,1662 @@
+{
+  "settings": {
+    "name": "sample_piyush",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": "4",
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#333333"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.4",
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
+    "uniqCompNum": 81,
+    "versionPublish": "5.9.6",
+    "screenshot": "screenshot.png",
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "visibility": "hidden",
+                "display": "block",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "visibility": "visible"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 1024px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 1023px)": {
+              ".navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#55b4d4\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                         <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#header3-e\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-home mbr-iconfont mbr-iconfont-btn\"></span>Home&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#content11-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-bulleted-list mbr-iconfont mbr-iconfont-btn\"></span>Publications&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"assets/files/Devashish_CV.pdf\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-link mbr-iconfont mbr-iconfont-btn\"></span>CV&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-edit mbr-iconfont mbr-iconfont-btn\"></span>Projects &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">&nbsp; CV</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "s4AxCXW1lq",
+          "_anchor": "menu1-8",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-right": "4rem",
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                "padding-bottom": "3rem"
+              }
+            },
+            ".mbr-text": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header3",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"90\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/arches2-2000x1500.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#149dcc\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-03-10-at-4.04.29-pm-956x1275.jpeg\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n                    <br><br>Devashish Gosain</h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">A nature enthusiast with a deep interest in security and networks. I completed my PhD from IIIT-Delhi in Computer Science (with specialization in network security) in 2020. Then, for two years, I worked as a postdoctoral researcher at <b><a href=\"https://www.mpi-inf.mpg.de/departments/inet\"><b>INET reserach group</b></a>, </b>Max Planck Institute of Informatics, Germany<b> </b>with <a href=\"https://www.mpi-inf.mpg.de/departments/inet/people/anja-feldmann\" style=\"font-weight: bold;\"><b>Anja Feldmann</b></a>. I completed my second postdoc&nbsp;&nbsp;at <a href=\"https://www.esat.kuleuven.be/cosic/\"><b>COSIC research group</b></a><b style=\"font-style: italic;\">, </b><span style=\"font-style: italic;\">KU Leuven</span><b style=\"font-style: italic;\">,</b>&nbsp;Belgium &nbsp;with <a href=\"https://homes.esat.kuleuven.be/~cdiaz/\" style=\"font-weight: bold;\"><b>Claudia Diaz</b></a>.<br><br>I am an <a href=\"https://www.mpi-inf.mpg.de/departments/inet/people\" class=\"text-primary\" target=\"_blank\">associated researcher</a> at MPI-INF and is working as an assistant professor at <a href=\"https://www.bits-pilani.ac.in/goa/\" class=\"text-primary\" target=\"_blank\">BITS Pilani Goa campus</a> since 1st August, 2023<br><br><i>Email IDs<b>:</b></i>&nbsp;&nbsp; dgosain [at] mpi-inf [dot] mpg [dot] de, <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;devashishg [at] iiitd [dot] ac [dot] in</p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"index.html#content9-t\" data-app-placeholder=\"Type Text\">&nbsp;PUBLICATIONS</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "s4AC9mrvxQ",
+          "_anchor": "header3-e",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".section-text\" mbr-text>Latest</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "s4OrVUmpOz",
+          "_anchor": "content9-1q",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-56px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#149dcc"
+            }
+          },
+          "_name": "content12",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li>Paper accepted at <b>PAM 2024</b></li><li>Two papers accepted at <b>IMC 2023</b></li><li>Paper accepted at <b>Usenix Security 2023</b></li><li>Paper accepted at<b> ICCCN 2023</b></li><li>Paper accepted at <b>PAM 2023</b></li><li>Paper accepted at<b> INFOCOM 2023</b></li><li>Paper accepted at <b>NDSS 2023</b></li><li>Paper accepted at <b>CCS 2022</b></li><li>August 1st 2022: Joined <b>KU Leuven&nbsp;</b>as postdoctoral researcher</li><li>Reviewer<b> ShadowTPC IMC 2022</b></li><li>Reviewer <b>ESORICS 2022</b></li><li>Demo Paper accepted at <b>ICNP 2021</b></li><li>Paper accepted at <b>WPES 2021 </b>(colocated with CCS)</li><li>Paper accepted at <b>LCN 2021</b></li><li>Paper accepted at <b>AsiaCCS 2021</b></li><li>Paper accepted at <a href=\"https://petsymposium.org/cfp21.php\" target=\"_blank\"><b>PETS 2021</b></a></li><li>Paper accepted at <a href=\"https://www.ieeelcn.org/\" target=\"_blank\"><b>LCN 2020</b></a></li><li>Poster accepted at <a href=\"https://petsymposium.org/2019/hotpets.php\" target=\"_blank\"><b>HotPets 2020</b></a><br>Link to the <a href=\"https://petsymposium.org/2020/files/hotpets/Mixim.pdf\" target=\"_blank\">poster</a></li><li>November 1st 2020: Joined Max Planck Institite of Informatics as postdoctoral researcher</li><li>12 August 2020: Successfully defended my PhD thesis. <br>Committee: <a href=\"https://people.cs.umass.edu/~amir/\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">Prof. Amir Houmansadr</a><span style=\"font-size: 1rem;\">, </span><a href=\"https://www.caida.org/~amogh/\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">Dr. Amogh Dhamdhere</a><span style=\"font-size: 1rem;\">‬ and </span><a href=\"https://www.cse.iitb.ac.in/~vinayr/\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">Prof. Vinay J. Ribeiro</a><br>Link to my PhD <a href=\"assets/files/PhD_Thesis.pdf\" target=\"_blank\">thesis</a></li><li><span style=\"font-size: 1rem;\">Reviewer for IEEE Access</span></li><li>February 2020: Submitted my PhD thesis</li><li>Winter Sem 2019:<b> </b>Visiting scholar at Brigham Young University (BYU), USA in <a href=\"https://isrl.byu.edu/\" target=\"_blank\">ISRL</a> lab</li><li>August 2019: Successfully defended my PhD comprehensive exam&nbsp;<br>Committee: <a href=\"http://vinayaknaik.info/\" target=\"_blank\">Prof. Vinayak Naik</a>, <a href=\"https://pushpendrasingh.org/\" target=\"_blank\">Prof. Pushpendra Singh</a> (Internal examiners) and <br><a href=\"https://angelosk.github.io/cv.html\" target=\"_blank\">Prof. Angelos Keromytis</a> (External examiner)</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s4OrKPDyqn",
+          "_anchor": "content12-1p",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b>\n                    List of Publications</b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "s4B5YerMz9",
+          "_anchor": "content9-t",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ol": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "padding-left": ".5rem",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-56px",
+                      "margin-top": "-10px",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content11",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>Out in the Open: On the Implementation of Mobile App Filtering in India<br></b>accepted for publication in proceedings of Passive and Active Measurements<b> (PAM)&nbsp;</b><br>Devashish Gosain, Kartikey Singh, Rishi Sharma, Jithin S, Sambuddho, 2024<a href=\"assets/files/On_app_filtering_in_India_PAM_24_Camera_Ready.pdf\" class=\"text-primary\" target=\"_blank\"> [link]</a></li><li><b>Thou Shalt Not Reject: Analyzing Accept-Or-Pay Cookie Banners on the Web<br></b><span style=\"font-size: 1rem;\">accepted for publication in proceedings of Internet Measurement Conference</span><b style=\"font-size: 1rem;\"> (IMC).<br></b><span style=\"font-size: 1rem;\">Authors: Ali Rasaii, <b>Devashish Gosain</b> and Oliver Gasser, 2023 <a href=\"assets/files/paper-cameraready.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></span></li><li><span style=\"font-size: 1rem;\"><b>PTPerf: On the performance evaluation of Tor Pluggable Transports</b><br>accepted&nbsp;</span>for publication in proceedings of Internet Measurement Conference <b>(IMC)</b>.<br>Authors: Zeya Umayya, Dhruv Malik, <b>Devashish Gosain</b>, Piyush Kumar Sharma, 2023 <a href=\"https://arxiv.org/pdf/2309.14856.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>A Multi-perspective Study of User Perception and Expectation of Deniability</b><br>accepted for publication in proceedings of <b>Usenix Security</b><br>Authors: Tarun Kumar Yadav, <b>Devashish Gosain</b>, Kent Seamons, 2023 <a href=\"https://www.usenix.org/conference/usenixsecurity23/presentation/yadav\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Predictable Internet Clients and In-Switch Deep Packet Inspection</b><br>accepted for publication in proceedings of 32nd International Conference on Computer Communications and Networks <b>(ICCCN)</b><br>Authors: Sahil Gupta, <b>Devashish Gosain</b>, M Kwon, HB Acharya, 2023 <a href=\"assets/files/ICCCN_2023.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Exploring the Cookieverse: A Multi-Perspective Analysis of Web Cookies\n<br></b><span style=\"font-size: 1rem;\">accepted for publication in proceedings of Passive and Active Measurements <b>(PAM)</b></span><span style=\"font-size: 1rem;\"><b>&nbsp; </b><br>Authors: Ali Rasaii, Shivani Singh, <b>Devashish Gosain</b>, Oliver Gasser, 2023 <a href=\"https://bannerclick.github.io/\" class=\"text-primary\" target=\"_blank\">[link]</a></span></li><li><b>On the Anonymity of Peer-To-Peer Network Anonymity Schemes Used by\n&nbsp;</b><span style=\"font-size: 1rem;\"><b>Cryptocurrencies</b><br>accepted for publication in proceedings of Network and Distributed&nbsp;</span><span style=\"font-size: 1rem;\">Security Symposium</span><b style=\"font-size: 1rem;\"> (NDSS)<br></b><span style=\"font-size: 1rem;\">Authors: Piyush Kumar Sharma, <b>Devashish Gosain</b>, Claudia Diaz, 2023 <a href=\"https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s241_paper.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></span></li><li><b>DeeP4R: Deep Packet Inspection in P4 using Packet Recirculation</b><br>accepted for the publication in proceedings of International Conference on Computer Communications (<b>INFOCOM</b>)<br>Authors: Sahil Gupta, <b>Devashish Gosain</b>, M Kwon, HB Acharya, 2023 <a href=\"assets/files/DeeP4R.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Automatic Detection of Fake Key Attacks in Secure Messaging</b><br>accepted for the publication in Proceedings of Conference on Computer and Communications Security <b>(CCS)</b><br>Authors: Tarun Kumar Yadav, <b>Devashish Gosain, </b>Amir Herzberg, Daniel Zappala, Kent Seamons, 2022 <a href=\"https://arxiv.org/pdf/2210.09940.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>MiXiM: Mixnet design decisions and empirical evaluation</b><br>accepted for the publication in Proceedings on Workshop on Privacy in the Electronic Society <b>(WPES)</b><br>Authors: Iness Ben Guirat, <b>Devashish Gosain</b>, Claudia Diaz, 2021 <a href=\"https://www.esat.kuleuven.be/cosic/publications/article-3403.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Simple Deep Packet Inspection with P4</b><br>accepted as a demo paper for the publication in Proceedings on International Conference on Network Protocols <b>(ICNP)</b><br>Authors: Sahil Gupta, <b>Devashish Gosain</b>, G Grigoryan, M Kwon, HB Acharya, 2021 <a href=\"https://icnp21.cs.ucr.edu/papers/icnp21camera-paper39.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Telemetron: Measuring Network Capacity Between\n&nbsp;</b><span style=\"font-size: 1rem;\"><b>Off-Path Remote Hosts&nbsp;</b><br>accepted for the publication in Proceedings on Local Computer Networks <b>(LCN)</b>&nbsp;<br>Authors: <b>Devashish Gosain</b>, A. Jaiswal, HB Acharya, S. Chakravarty, 2021 <a href=\"assets/files/Telemetron.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></span></li><li><b>Camoufler: Accessing The Censored Web By Utilizing InstantMessaging Channels</b><br>accepted for the publication in Proceedings on <b>AsiaCCS<br>Authors: </b>Piyush Kumar Sharma<b>, Devashish Gosain, </b>S. Chakravarty,<b> </b>2021 <a href=\"https://censorbib.nymity.ch/pdf/Sharma2021a.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Too Close for Comfort: Morasses of (Anti-)\nCensorship in the Era of CDNs</b><br>accepted for the publication in Proceedings on Privacy Enhancing Technologies <b>(PoPETS)</b><br>Authors: <b>Devashish Gosain</b>, Mayank Mohindra, Sambuddho Chakravarty, 2021 <a href=\"https://petsymposium.org/popets/2021/popets-2021-0023.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Maginot Lines and Tourniquets :\n</b><b style=\"font-size: 1rem;\">On the Defendability of National Cyberspace<br></b><span style=\"font-size: 1rem;\">accepted for the publication in Proceedings on Local Computer Networks Symposium&nbsp;<b>(LCN)</b>.<br>Authors: <b>Devashish Gosain</b>, Madhur Rawat, Piyush Kumar Sharma, H.B Acharya, 2020 <a href=\"assets/files/Maginot_Lines_and_Tourniquets.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></span></li><li><b>SiegeBreaker: An SDN Based Practical Decoy Routing System,&nbsp;</b>accepted for\n the publication in Proceedings on Privacy Enhancing Technologies <b>(PoPETS)</b>. <br>Authors: Piyush Kumar Sharma, <b>Devashish Gosain</b>, Himanshu Sagar, Chaitanya Kumar, Aneesh Dogra, Vinayak Naik, H.B. Acharya, Sambuddho Chakravarty, 2020 <a href=\"https://petsymposium.org/popets/2020/popets-2020-0051.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a><br></li>\n                    <li><b>CAMP: cluster aided multi-path routing protocol for wireless sensor networks, </b>accepted for the publication in <b>Wireless Networks</b>, Springer.\n<br>Authors: Mohit Sajwan, <b>Devashish Gosain</b>, Ajay. K. Sharma, 2019 <a href=\"assets/files/CAMP.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Where The Light Gets In: Analyzing Web Censorship Mechanisms in India</b><br>accepted for the publication in proceedings of Internet Measurement Conference <b>(IMC)</b>.<br>Authors: Tarun Kumar Yadav*, Akshat Sinha*,<b> Devashish Gosain*</b>, Piyush Sharma, Sambuddho\n Chakravarty, 2018. (*All authors have equal contributions.) <a href=\"https://conferences.sigcomm.org/imc/2018/papers/imc18-final143.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Hybrid energy-efficient multi-path routing for wireless sensor networks,</b> accepted\n for the publication in Journal of Computers and Electrical Engineering, Elsevier. <br>Authors: Mohit Sajwan, <b>Devashish Gosain</b>, Ajay. K. Sharma, 2018 <a href=\"assets/files/HEEMP.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>The Devil’s in The Details: Placing Decoy Routers in the Internet<br></b>accepted for\n the publication in proceedings of Annual Computer Security Applications Conference <b>(ACSAC)</b>. &nbsp;<br>Authors: <b>Devashish Gosain</b>, Anshika Aggarwal, H. B. Acharya and Sambuddho Chakravarty, 2017 <a href=\"https://arxiv.org/pdf/1710.05527.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Mending Wall: On the Implementation of Censorship in India <br>(Best Student\n Paper Award)&nbsp;</b>accepted for the publication in proceedings of EAI International Conference on Security and Privacy in Communication Networks <b>(SECURECOMM). </b><br>Authors: <b>Devashish Gosain</b>, Anshika Aggarwal, Sahil Shekhawat, H. B. Acharya and Sambuddho Chakravarty, 2017 <a href=\"https://crysp.uwaterloo.ca/courses/pet/F18/cache/link.springer.com/content/pdf/10.1007/978-3-319-78813-5_21.pdf\" class=\"text-primary\">[link]</a></li><li><b>Few Throats to Choke: On the Current Structure of the Internet<br></b>accepted for the publication in proceedings of Local Computer Networks <b>(LCN).</b><br>Authors: H. B. Acharya*, Sambuddho Chakravarty* and <b>Devashish Gosain</b>*, 2017&nbsp;<br>(*All authors have equal contributions.)&nbsp;</li><li><b>DSERR: Delay Sensitive Energy Efficient Reliable Routing Algorithm for wireless sensor networks,</b> accepted for the publication in Wireless Personal Communication <b>(WPC)</b>, Springer. <br>Authors: <b>Devashish Gosain</b>, Itu Snigdh, Mohit Sajwan, 2017 <a href=\"https://www.researchgate.net/publication/318896453_DSERR_Delay_Sensitive_Energy_Efficient_Reliable_Routing_Algorithm#fullTextFileContent\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Analysis of scalability for routing protocols in wireless sensor networks, </b>International Journal for Light and Electron Optics <b>(Optik)</b>, Elsevier. <br>Authors: <b>Devashish Gosain</b>, Itu Snigdh, 2016 <a href=\"https://pdf.sciencedirectassets.com/273239/1-s2.0-S0030402615X00222/1-s2.0-S0030402615017027/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFFvCIoX8c%2FvzjXsYGuHj3PoSBn3JlWPAWe7MlnF1TOJAiEAyMcgniFGVbUaiUfNE%2BT4vWfpIck6z6V%2FXyWW8O5aDCsquwUIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDLhOurv43qUoKCKtsiqPBZ5aSS54wtQMwnfCFORGeWYyjZ%2FQiSlh7q6gP3tFafqR%2BPUwxiUMihHCZy4oah1d%2BWuypK%2BcXCs3Q4KGTHmAJgz0DJqOj1UzBPnKMTB%2BGafhPMPAM1b91XPxq0OiDYrPSTLMaNJfmB68IPn7RTqDFIV7s%2BBK8gZcZ4O5KjLCS1doMxih1Rt0%2BRdMlFpGkt6KNkrcz9MSKMPuIP8zBAWKFgDKzYT1pwUX6IQj3wDtNmQWccNFWeiOBjLGZU59LLOjZDulxhkCrXF%2F6U40fhlMqfoSl90GKKo%2BpK4%2FoXJsRPyBS4%2For0mNBe3kgft73ZQCzcjdm4Vm240QzRRlPoi2%2FtKSay5GsnnUdeo5izRi%2BpYmecNflMU5E07Gz6JPFW6NpRodtRQ%2FCudMTcTvZAvTgSmWFGrwFHtZFfcq6kgz5UkXcbL8FX%2FFDUQUhITht%2Bgb3qPlx2QNM%2BqQf95p5AcXbVIgUfDNBSzezy32VESElrBSfkBaJkcuRdX%2Fl9MDU2DdiSuVH6TKwY0A6eiicnFpWDZc55K3BLcL8CophlqzXKELEKnqvePiTBCz5fwhDbuEiAeUEoKyokVCF%2B0IntCynLh8XdvdW5gX%2B%2FfVKrLrZqc5%2BZ%2FSUey2N9jHnNrnY3Ag0xfYQ8uUKYaDHB%2FXnr9NHyLWD2GELz40NEj5FA9aKg731%2B2pCwD18psVGi0OdaA5LwiVNYiRRtevVtl2I%2BVg1CaBucb7jNGD9QldiD876O1boHbcjCasGmP%2BaPAzaT%2B91oirZ3%2BIOkJxYeiVI16X2TkfmRpKg30U0pSbAkfZDPtZtFT6eaYPos%2BAvjsVt4lr4zz%2F6RaADRTVSn%2B1GAKvqMtJYIeyOLLawI6hMckppZQwxKHVqAY6sQEDog%2BW4Y7TNEGcPGdQmoUn6qXV%2BJg7JqVlh132wofmVy9Vh8He8lgJp1j%2FttgPCMQ7N2klVyFlNqCNwM%2F2Dbt%2FDLl1xYs7fyFq6pg9HiooQBkaMgG2Ss90FkX8ForBcr27iuM7V%2FAYifC05MvfuGal98I83tbzLCmprU87RFRfK8vWTg0CTECJfHO%2BLVEfIrdlpcHi3WwG0%2Fzzgba3DUB664B6brKihb6q6TmE2cXx%2B1A%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230928T103941Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYRPOKGAYQ%2F20230928%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=32578f4c98c0a06509ef3e460e0c527213296285398a1b33bb5127fcd0a23f6e&hash=046b9cb188f26bc9c6eac4365272655c41066560fd72c2d4a6d7acd5d77045d1&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0030402615017027&tid=spdf-633a9f70-5b01-4c2f-b044-f9ae7e15ebbb&sid=6abc42e3745023415a4b6435e2702adb9462gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=13085a540100570b575650&rr=80db5d2859e946b6&cc=in\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Optimal sink placement in backbone assisted wireless sensor networks,</b> Egyptian Informatics Journal <b>(EIJ)</b>, Elsevier. <br>Authors: Itu Snigdh,<b> Devashish Gosain</b>, Nisha Gupta, 2016 <a href=\"https://pdf.sciencedirectassets.com/280281/1-s2.0-S1110866516X00035/1-s2.0-S1110866515000626/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFFvCIoX8c%2FvzjXsYGuHj3PoSBn3JlWPAWe7MlnF1TOJAiEAyMcgniFGVbUaiUfNE%2BT4vWfpIck6z6V%2FXyWW8O5aDCsquwUIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDLhOurv43qUoKCKtsiqPBZ5aSS54wtQMwnfCFORGeWYyjZ%2FQiSlh7q6gP3tFafqR%2BPUwxiUMihHCZy4oah1d%2BWuypK%2BcXCs3Q4KGTHmAJgz0DJqOj1UzBPnKMTB%2BGafhPMPAM1b91XPxq0OiDYrPSTLMaNJfmB68IPn7RTqDFIV7s%2BBK8gZcZ4O5KjLCS1doMxih1Rt0%2BRdMlFpGkt6KNkrcz9MSKMPuIP8zBAWKFgDKzYT1pwUX6IQj3wDtNmQWccNFWeiOBjLGZU59LLOjZDulxhkCrXF%2F6U40fhlMqfoSl90GKKo%2BpK4%2FoXJsRPyBS4%2For0mNBe3kgft73ZQCzcjdm4Vm240QzRRlPoi2%2FtKSay5GsnnUdeo5izRi%2BpYmecNflMU5E07Gz6JPFW6NpRodtRQ%2FCudMTcTvZAvTgSmWFGrwFHtZFfcq6kgz5UkXcbL8FX%2FFDUQUhITht%2Bgb3qPlx2QNM%2BqQf95p5AcXbVIgUfDNBSzezy32VESElrBSfkBaJkcuRdX%2Fl9MDU2DdiSuVH6TKwY0A6eiicnFpWDZc55K3BLcL8CophlqzXKELEKnqvePiTBCz5fwhDbuEiAeUEoKyokVCF%2B0IntCynLh8XdvdW5gX%2B%2FfVKrLrZqc5%2BZ%2FSUey2N9jHnNrnY3Ag0xfYQ8uUKYaDHB%2FXnr9NHyLWD2GELz40NEj5FA9aKg731%2B2pCwD18psVGi0OdaA5LwiVNYiRRtevVtl2I%2BVg1CaBucb7jNGD9QldiD876O1boHbcjCasGmP%2BaPAzaT%2B91oirZ3%2BIOkJxYeiVI16X2TkfmRpKg30U0pSbAkfZDPtZtFT6eaYPos%2BAvjsVt4lr4zz%2F6RaADRTVSn%2B1GAKvqMtJYIeyOLLawI6hMckppZQwxKHVqAY6sQEDog%2BW4Y7TNEGcPGdQmoUn6qXV%2BJg7JqVlh132wofmVy9Vh8He8lgJp1j%2FttgPCMQ7N2klVyFlNqCNwM%2F2Dbt%2FDLl1xYs7fyFq6pg9HiooQBkaMgG2Ss90FkX8ForBcr27iuM7V%2FAYifC05MvfuGal98I83tbzLCmprU87RFRfK8vWTg0CTECJfHO%2BLVEfIrdlpcHi3WwG0%2Fzzgba3DUB664B6brKihb6q6TmE2cXx%2B1A%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230928T104047Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=ASIAQ3PHCVTYRPOKGAYQ%2F20230928%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=de16a2ac06440ef520841b45534679b27152ce683f64c196a1a4581b89f61a8c&hash=c1126a7e72a27970a79ce4e2ad8e1214b65cea0a8fe07fd2dc27a67ef804b005&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1110866515000626&tid=spdf-40e9ba3b-b0a5-4f85-a4b8-e9fc871cb466&sid=6abc42e3745023415a4b6435e2702adb9462gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=13085a540100570a065607&rr=80db5ec8bec146b6&cc=in\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Energy Analysis for Trajectory based Sink Mobility in WSN, </b>Procedia Computer\n Science, Elsevier. <br>Authors: Itu Snigdh, <b>Devashish Gosain</b>, 2015 <a href=\"https://pdf.sciencedirectassets.com/280203/1-s2.0-S1877050915X00123/1-s2.0-S1877050915013381/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDiGjIyBqMO%2B3Jl4UbbgXqOoi1KlvP69Z23uPrK0HaFuwIgMTG1va2YfZMUf4lL4PKaQe1Eb6BQtlS7RXzAF%2BKPxB0quwUIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDIvJXyqD9dA1kx%2B%2BnCqPBUOcsZjToJZPiCX1qm0hEWTGbwsBY44kpnHbD%2F8QE0IOQ%2FbrbQy7NEFNPxHR7v8CYv6WnhTvD%2BGIWpPXymcgrLn%2FirB5BxVN6HSFo1aMYQRNGub2ZrasSvYad9RFK8BiUnh1LPizxh3EPqTUkaec6yK2iSW7VKh%2BlJTAyR2EekaA0s%2B8AnNwbZCZRE1CqUePMy07TFO8Xp%2BHQntxo%2BqiSgauvzWoJFQwzgWEh6MkLVQKLwMsJ5jm7Wx0WqoD5G%2BliPGv4MhyR7CRY4xCEV3RYhMebsrzESAe7nzMp6vLMZHAcuiyKEEObUH%2FsPVuNBDj1yUpLGc9VGP5yya1zHIhQsc5JfuIB4IqDebq2IXWD7UyFzG9pcpSk7ngLH7JKzEPWnp7G2gGjxlfMWqxEGB4qFB3fWkKkj4uA5NwSKSwEqYKbkY0qwcrB8Q4GnGnE404AmgurexKrfHBIWqUxLvqmgsgsOn2xH%2BVT%2FyaLtVDksmHhFXJ7%2BqNxjPyLV%2B%2Bs5iXBcrb8FDB%2FDLsTti%2Bsi8AUxmCedSTIBd7Ft83b1Mvs2lB34M0ccfa3B6t%2FsPDUCNa2ZxQnrJI3nTSMEH6Iykws0jsRubXplhD0wOqDjFSztb4K4H%2BzsRMvikiiLY1di%2FmZgLpaEPc2znI05WR8st7UgLyrnDBxvMi97Y2M7VczohK9LanKjopbP7PtWiyGUV%2Fsqh0KlwqgmbKCflI34byBGi%2Fg2Inh%2BIs0YsDN2aeKHqHvRE%2BBcgdBMTDet42ip0rPcOjOmQtc5zAlf3IiZ2RCqyIOHJ9UDMDgL1dtyO16x1VRntlcvuVOa651w0LHKfMfN0Re8hFF5VsvUlZzp1k47Cur4WDoX9dSEf9S2BaYMYwh5HVqAY6sQFQreRRQ8ixC3O7wiHgGiJuudxQc501chNwWxdzNLANjh1LHKuKzor4Ik3dPQdpaaDnQo6Ei%2Fwy2d2%2BZec7yGtKbghnXu2oMfgB21naIxZFZwAliM%2BmxA56lufJIdyNapkJQc%2Ffu4GMH72qsIgKy%2FiPU7saK1%2BXcyNjMpwMk2mKmeW%2BZoy7oLa4aNr8LDNKEWjey%2FPA7uHLd%2FWaAyrLCxZLHLPPLcy%2BL3LShS9Fj07aUQU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230928T104205Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY6BJPL7UM%2F20230928%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c08713299a44db818355d50ecbb6cafde3d36086fd1e180f1f318a5133ebe7d5&hash=4e0cc03bfa5fce41e9b21e77ebe4e57244b6cd72ea91ea6c52ae7ee8756126a2&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1877050915013381&tid=spdf-401f0d91-1ec9-46f2-9227-395cbfad9951&sid=6abc42e3745023415a4b6435e2702adb9462gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=13085a540100545f075f55&rr=80db60b10eab46b6&cc=in\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Performance Comparison of Routing Protocols in Bipartite Wireless Sensor\n Network<br></b>International Journal of Electrical and Computer Engineering <b>(IJECE)</b>,<br>Authors: <b>Devashish Gosain</b>, Itu Snigdh, 2015 <a href=\"https://www.researchgate.net/publication/336888267_Performance_Comparison_of_Routing_Protocols_in_Bipartite_Wireless_Sensor_Network\" class=\"text-primary\" target=\"_blank\">[link]</a></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s4B4cFgYlU",
+          "_anchor": "content11-p",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Website Generator Description",
+        "title": "Projects",
+        "order": 3
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "visibility": "hidden",
+                "display": "block",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "visibility": "visible"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 1024px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 1023px)": {
+              ".navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#55b4d4\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                         <img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#header3-e\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-home mbr-iconfont mbr-iconfont-btn\"></span>Home&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#content11-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-bulleted-list mbr-iconfont mbr-iconfont-btn\"></span>Publications&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"assets/files/Devashish_CV.pdf\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-link mbr-iconfont mbr-iconfont-btn\"></span>CV&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"page1.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-edit mbr-iconfont mbr-iconfont-btn\"></span>Projects &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">&nbsp; CV</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "s4AxCXW1lq",
+          "_anchor": "menu1-g",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h1": {
+              "color": "#616161"
+            },
+            "h2, h3, p": {
+              "color": "#767676"
+            },
+            ".mbr-section-subtitle": {
+              "font-style": "italic"
+            },
+            "H1": {
+              "color": "#232323"
+            }
+          },
+          "_name": "header9",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <input type=\"checkbox\" name=\"halfSize\" title=\"Half Size\" checked>\n        <select title=\"Align\" name=\"alignHalf\" condition=\"halfSize\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/lab-copy-1119x839.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white\" mbr-class=\"{'col-lg-8 col-md-10': halfSize, 'm-auto': halfSize &&  alignHalf==2, 'ml-auto': halfSize &&  alignHalf==3}\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><i style=\"font-weight: normal;\"><br>Selected Research Projects</i></h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"page1.html#content9-27\" data-app-placeholder=\"Type Text\">On Fake Key Attacks in Secure Messaging</a> <a class=\"btn btn-md btn-black\" href=\"page1.html#content9-26\" data-app-placeholder=\"Type Text\">MiXiM: Mixnet design decisions and empirical evaluation</a> <a class=\"btn btn-md btn-primary\" href=\"page1.html#content9-1c\" data-app-placeholder=\"Type Text\">The Devil In The Details</a> <a class=\"btn btn-md btn-black\" href=\"page1.html#content9-1d\" data-app-placeholder=\"Type Text\">Where The&nbsp;Light <br>Gets In</a>  <a class=\"btn btn-md btn-black\" href=\"page1.html#content9-1x\" data-app-placeholder=\"Type Text\">Telemetron</a> <a class=\"btn btn-md btn-primary\" href=\"page1.html#content9-20\" data-app-placeholder=\"Type Text\">Maginot Lines and Tourniquets</a> <a class=\"btn btn-md btn-primary\" href=\"page1.html#content9-1g\" data-app-placeholder=\"Type Text\">Mending Wall</a> <a class=\"btn btn-md btn-black\" href=\"page1.html#content9-1i\" data-app-placeholder=\"Type Text\">SiegeBreaker</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "s4BjsYD6PN",
+          "_anchor": "header9-18",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b><i>The Devil’s in The Details: Placing Decoy Routers in the Internet.</i></b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "s4BqY0rg4J",
+          "_anchor": "content9-1c",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><span style=\"font-style: normal; font-size: 1.09rem;\">Decoy Routing, the use of routers (rather than end hosts) as proxies, is a new direction in anti-censorship research. Decoy Routers (DRs), placed in Autonomous Systems, proxy traffic from users; so the adversary, e.g. a censorious government, attempts to avoid them. &nbsp; &nbsp;&nbsp;</span><br></p><p><span style=\"font-style: normal; font-size: 1.09rem;\"></span></p><p><span style=\"font-style: normal;\">It is quite difficult to place DRs so the adversary cannot route around them –-- for example, we need the cooperation of 850 ASes to contain China alone. In this work, we consider a different approach. We begin by noting that DRs need not intercept all the network paths from a country, just those leading to Overt Destinations, i.e., unfiltered websites hosted outside the country (usually popular ones, so that client traffic to the OD does not make the censor suspicious).      &nbsp;\n</span><span style=\"font-style: normal; font-size: 1.09rem;\"></span></p><p><span style=\"font-style: normal;\">Our first question is –-- How many ASes are required for installing DRs to intercept a large fraction of paths from e.g. China to the top n websites (as per Alexa)? How does this number grow with n ? To our surprise, the same few (≈ 30) ASes intercept over 90% of paths to the top n sites worldwide, for n = 10, 20...200 and also to other destinations. Investigating further, we find that this result fits perfectly with the hierarchical model of the Internet; our first contribution is to demonstrate with real paths that the number of ASes required for a world-wide DR framework is small (≈ 30). Further, censor nations’ attempts to filter traffic along the paths transiting these 30 ASes will not only block their own citizens, but others residing in foreign ASes.                                                                                 Our second contribution in this paper is to consider the details of DR placement: not just in which ASes DRs should be placed to intercept traffic, but exactly where in each AS. We find that even with our small number of ASes, we still need a total of about 11, 700 DRs. We conclude that, even though a DR system involves far fewer ASes than previously thought, it is still a major undertaking. For example, the current routers cost over 10.3 billion USD, so if Decoy Routing at line speed requires all-new hardware, the cost alone would make such a project unfeasible for most actors (but not for major nation states).</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s4Bq2J9DDc",
+          "_anchor": "content2-1b",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b><i>Where The Light Gets In: Analyzing Web Censorship Mechanisms in India</i></b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "s4BqYn3dXv",
+          "_anchor": "content9-1d",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p>In this work we present a detailed study of the Internet censorship in India. We consolidated a list of potentially blocked websites from various public sources to assess censorship mechanisms used by nine major ISPs.               &nbsp;\n<br></p><p><br><span style=\"font-size: 1.09rem;\">To begin with, we demonstrate that existing censorship detection tools like OONI are grossly inaccurate. We thus developed various techniques and heuristics to correctly assess censorship and study the underlying mechanism involved in these ISPs.  At every step we corroborated our finding manually to test the efficacy of our approach, a step largely ignored by others. We fortify our findings by adjudging the coverage and consistency of censorship infrastructure, broadly in terms of average number of network paths and requested domains the infrastructure surveils. &nbsp;<br></span></p><p><span style=\"font-size: 1.09rem;\"><br></span><span style=\"font-size: 1.09rem;\">Our results indicate a clear disparity among the ISPs, on how they install censorship infrastructure. For instance, in Idea network we observed the censorious middleboxes on over 90% of our tested intra-AS paths whereas for Vodafone, it is as low as 2.5%. We conclude our research by devising our own anti-censorship strategies, that does not depend on third party tools (like proxies, Tor and VPNs etc.). We managed to anti-censor all blocked websites in all ISPs under test.</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s4BriRtPSJ",
+          "_anchor": "content2-1e",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b><i>Mending Wall: On the Implementation of Censorship in India</i></b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "s4BrCxKGKb",
+          "_anchor": "content9-1g",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p>This work presents a study of the Internet infrastructure in India from the point of view of censorship. First, we show that the current state of affairs - where each ISP implements its own content filters (nominally as per a governmental blacklist) -results in dramatic differences in the censorship experienced by customers. In practice, a well-informed Indian citizen can escape censorship through a judicious choice of service provider.         &nbsp;\n</p><p><br><span style=\"font-size: 1.09rem;\">We then consider the question of whether India might potentially follow the Chinese model and institute a single, government-controlled  filter. This would not be difficult, as the Indian Internet is quite centralized already. A few \"key\" ASes ( 1% of Indian ASes) collectively intercept 95% of paths to the censored sites we sample in our study, and also to all publicly-visible DNS servers. 5,000 routers spanning these key ASes would su ce to carry out IP or DNS  filtering for the entire country;  70% of these routers belong to only two private ISPs. If the government is willing to employ more powerful measures, such as an IP Prefix Hijacking attack, any one of several key ASes can censor traffic for nearly all Indian users. Finally, we demonstrate that such federated censorship by India would cause substantial collateral damage to non-Indian ASes whose traffic passes through Indian cyberspace (which do not legally come under Indian jurisdiction at all).</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s4BrDJQWD0",
+          "_anchor": "content2-1h",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b><i>SiegeBreaker: An SDN Based Practical Decoy Routing System</i></b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "s4Bs0SgqhP",
+          "_anchor": "content9-1i",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            "DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote>Decoy Routing (DR), a promising new approach to censorship circumvention, uses routers (rather than end hosts) as proxy servers. Users of censorious networks, who wish to use DR, send specially crafted packets, nominally addressed to an uncensored website. Once safely out of the censorious network, the packets encounter a special router (the Decoy Router) which identifies them using a secret handshake, decrypts their content, and proxies them to their true destination (a censored site). However, DR has implementation problems: it is unfeasible to reprogram routers for the complex operations required. Existing DR solutions fall back on using commodity servers as a Decoy Router, but as servers are not efficient at routing, most web applications show poor performance when accessed over DR. A further concern is that the DR has to inspect all flows in order to identify the ones that need DR; this may itself be a breach of privacy for other users (who neither wish Decoy Routing, and nor want to be monitored).\n<br><span style=\"font-size: 1.09rem;\"><br>In this work, we present a novel DR system, SiegeBreaker, which solves the above problems using an SDN-based architecture. Unlike previous proposals, where a single unit performs all major operations (inspecting all flows, identifying the Decoy Routing requests, and proxying them), SiegeBreaker distributes the tasks for Decoy Routing among three independent modules.&nbsp;(1) The SDN controller identifies the Decoy Routing requests via a covert, privacy preserving scheme. <br>(2) The reconfigurable SDN switch intercepts packets, and forwards them to a secret proxy. (3) The secret proxy server proxies the client’s traffic to the censored site. Our modular, lightweight design shows performance comparable to direct TCP operations (even at line rates of 1 Gbps), both in emulation setups, and Internet based tests involving commercial SDN switches.</span></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s4Bs1u3p4S",
+          "_anchor": "content2-1j",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b><i>Telemetron: Measuring Network Capacity Between\n</i></b><div><b><i>Off-Path Remote Hosts</i></b></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-1x",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "sapgOWYTh7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            "DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p>Existing techniques to measure bandwidth between two\n&nbsp;<span style=\"font-size: 1.09rem;\">hosts require the experimenter to have control over one or&nbsp;</span><span style=\"font-size: 1.09rem;\">both hosts. In this paper, we present Telemetron, the first active&nbsp;</span><span style=\"font-size: 1.09rem;\">bandwidth measurement tool that can estimate the path&nbsp;</span><span style=\"font-size: 1.09rem;\">capacity between two remote hosts, using only an off-path&nbsp;</span><span style=\"font-size: 1.09rem;\">Measuring Machine (MM).&nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">It is possible to cause traffic flow between off-path remote&nbsp;</span><span style=\"font-size: 1.09rem;\">hosts. Sending request packets to one host, with a spoofed&nbsp;</span><span style=\"font-size: 1.09rem;\">source IP (so the packets look like they are from the other&nbsp;</span><span style=\"font-size: 1.09rem;\">host), will cause the first host to send reply packets to the&nbsp;</span><span style=\"font-size: 1.09rem;\">other. The challenge is for MM to measure the rate at which&nbsp;</span><span style=\"font-size: 1.09rem;\">these packets arrive. Our key observation is that if the second&nbsp;</span><span style=\"font-size: 1.09rem;\">machine has a global IP-ID counter, the arrival of packets&nbsp;</span><span style=\"font-size: 1.09rem;\">(or more precisely, the number of replies they cause) can be&nbsp;</span><span style=\"font-size: 1.09rem;\">monitored remotely, using probes from MM. By observing&nbsp;</span><span style=\"font-size: 1.09rem;\">the rate of increment in global IP-ID counter, MM estimates&nbsp;</span><span style=\"font-size: 1.09rem;\">the path capacity between remote hosts. Telemetron shows&nbsp;</span><span style=\"font-size: 1.09rem;\">high accuracy in both laboratory and Internet tests. On an average,&nbsp;</span><span style=\"font-size: 1.09rem;\">the path capacity reported is 92.5% of the theoretical&nbsp;</span><span style=\"font-size: 1.09rem;\">limit.</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content2-1z",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "saph9FEG8q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b><i>Maginot Lines and Tourniquets :\n<br></i></b><div><b><i>On the Defendability of National Cyberspace</i></b></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-20",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "saphLRhADl",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            "DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p>National governments know the Internet as both a\n&nbsp;<span style=\"font-size: 1.09rem;\">blessing and a headache. On the one hand, it unlocks great&nbsp;</span><span style=\"font-size: 1.09rem;\">economic and strategic opportunity. On the other hand, government,&nbsp;</span><span style=\"font-size: 1.09rem;\">military, or emergency-services become vulnerable to&nbsp;</span><span style=\"font-size: 1.09rem;\">scans (Shodan), attacks (DDoS from botnets like Mirai), etc.,&nbsp;</span><span style=\"font-size: 1.09rem;\">when made accessible on the Internet.&nbsp;</span></p><p><span style=\"font-size: 1.09rem;\">How hard is it for a national government to effectively secure&nbsp;</span><span style=\"font-size: 1.09rem;\">its entire cyberspace? We approach this problem from the view&nbsp;</span><span style=\"font-size: 1.09rem;\">that a coordinated defense involves monitors and access control&nbsp;</span><span style=\"font-size: 1.09rem;\">(firewalls etc.) to inspect traffic entering or leaving the country,&nbsp;</span><span style=\"font-size: 1.09rem;\">as well as internal traffic. In several case studies, we consistently&nbsp;</span><span style=\"font-size: 1.09rem;\">find a natural Line of Defense — a small number of Autonomous&nbsp;</span><span style=\"font-size: 1.09rem;\">Systems (ASes) that intercept most (&gt; 95%) network paths in&nbsp;</span><span style=\"font-size: 1.09rem;\">the country. We conclude that in many countries, the structure&nbsp;</span><span style=\"font-size: 1.09rem;\">of the Internet actually makes it practical to build a nation-scale&nbsp;</span><span style=\"font-size: 1.09rem;\">cordon, to detect and filter cyber attacks.</span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content2-21",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "saphWWPUii",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b><i>MiXiM: Mixnet design decisions and empirical evaluation</i></b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-26",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "tgK91OrbSb",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            "DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><p><span style=\"font-size: 1.09rem;\">Real-world deployment of mix networks is a challenge and lags be</span><span style=\"font-size: 1.09rem;\">hind relatively more recent low-latency systems. Many theoretical&nbsp;</span><span style=\"font-size: 1.09rem;\">results and analysis exist but they do not adequately bridge the gap&nbsp;</span><span style=\"font-size: 1.09rem;\">between theory and practice. One of the main challenges of deploy</span><span style=\"font-size: 1.09rem;\">ment is deciding on the different mixnet building blocks and if the&nbsp;</span><span style=\"font-size: 1.09rem;\">combination of them provide necessarily the best system in terms&nbsp;</span><span style=\"font-size: 1.09rem;\">of anonymity. The MiXiM framework fills this gap and provides the&nbsp;</span><span style=\"font-size: 1.09rem;\">means to systematically analyse mix network designs from a num</span><span style=\"font-size: 1.09rem;\">ber of dimensions and supports the mixnetwork adopter to take&nbsp;</span><span style=\"font-size: 1.09rem;\">practical decisions backed with empirical support. This framework</span><span style=\"font-size: 1.09rem;\">is flexible and allows one to quickly set-up experiments to inves</span><span style=\"font-size: 1.09rem;\">tigate a large combinations of mix network building blocks, such&nbsp;</span><span style=\"font-size: 1.09rem;\">as mixing strategies, network topologies, as well as the different&nbsp;</span><span style=\"font-size: 1.09rem;\">parameters related to each component. The framework provides&nbsp;</span><span style=\"font-size: 1.09rem;\">a number of metrics covering the anonymity, end-to-end latency&nbsp;</span><span style=\"font-size: 1.09rem;\">and overheads of mix networks.</span><br></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content2-22",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "tgK7OU30cO",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b><i>Automatic Detection of Fake Key Attacks in Secure Messaging</i></b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-27",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "tgKab5s7Lb",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            "DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote>Popular instant messaging applications such as WhatsApp and\n&nbsp;<span style=\"font-size: 1.09rem;\">Signal provide end-to-end encryption for billions of users. These&nbsp;</span><span style=\"font-size: 1.09rem;\">applications often rely on a centralized, application-specific server&nbsp;</span><span style=\"font-size: 1.09rem;\">to distribute public keys and relay encrypted messages between the&nbsp;</span><span style=\"font-size: 1.09rem;\">users. As a result, they prevent passive attacks but are vulnerable&nbsp;</span><span style=\"font-size: 1.09rem;\">to some active attacks. A malicious or hacked server can distribute&nbsp;</span><span style=\"font-size: 1.09rem;\">fake keys to users to perform man-in-the-middle or impersonation&nbsp;</span><span style=\"font-size: 1.09rem;\">attacks. While typical secure messaging applications provide a&nbsp;</span><span style=\"font-size: 1.09rem;\">manual method for users to detect these attacks, this burdens&nbsp;</span><span style=\"font-size: 1.09rem;\">users, and studies show it is ineffective&nbsp;</span><span style=\"font-size: 1.09rem;\">in practice. This research presents KTACA, a completely automated&nbsp;</span><span style=\"font-size: 1.09rem;\">approach for key verification that is oblivious to users and easy&nbsp;</span><span style=\"font-size: 1.09rem;\">to deploy. We motivate KTACA by designing two approaches to&nbsp;</span><span style=\"font-size: 1.09rem;\">automatic key verification. One approach uses client&nbsp;</span><span style=\"font-size: 1.09rem;\">auditing (KTCA) and the second KS: method uses anonymous key&nbsp;</span><span style=\"font-size: 1.09rem;\">monitoring (AKM). Both have relatively inferior security properties,&nbsp;</span><span style=\"font-size: 1.09rem;\">leading to KTACA, which combines these approaches to provide&nbsp;</span><span style=\"font-size: 1.09rem;\">the best of both worlds. We provide a security analysis of each&nbsp;</span><span style=\"font-size: 1.09rem;\">defense, identifying which attacks they can automatically detect.&nbsp;</span><span style=\"font-size: 1.09rem;\">We implement the active attacks to demonstrate they are possible,&nbsp;</span><span style=\"font-size: 1.09rem;\">and we also create a prototype implementation of all the defenses&nbsp;</span><span style=\"font-size: 1.09rem;\">to measure their performance and confirm their feasibility. Finally,&nbsp;</span><span style=\"font-size: 1.09rem;\">we discuss the strengths and weaknesses of each defense, the load&nbsp;</span><span style=\"font-size: 1.09rem;\">they impose on clients and service providers, and their deployment&nbsp;</span><span style=\"font-size: 1.09rem;\">considerations.</span></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content2-24",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "tgK7PdiNtD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
