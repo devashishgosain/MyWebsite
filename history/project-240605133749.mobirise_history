@@ -1,0 +1,2483 @@
+{
+  "settings": {
+    "name": "sample_piyush",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": "4",
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#333333",
+        "#000000"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.4",
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
+    "uniqCompNum": 113,
+    "versionPublish": "5.9.6",
+    "screenshot": "screenshot.png",
+    "imageResize": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "visibility": "hidden",
+                "display": "block",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "visibility": "visible"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 1024px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 1023px)": {
+              ".navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#55b4d4\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo2-1.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#header3-e\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-home mbr-iconfont mbr-iconfont-btn\"></span>Home&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#content11-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-bulleted-list mbr-iconfont mbr-iconfont-btn\"></span>Publications&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"assets/files/Devashish_CV.pdf\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-link mbr-iconfont mbr-iconfont-btn\"></span>CV&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-users mbr-iconfont mbr-iconfont-btn\"></span>Community <br>Service&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page3.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>Prospective&nbsp;<br>Students</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>Research<br>Interests</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">&nbsp; CV</a></div>\n        </div>\n    </nav>\n</section>",
+          "_anchor": "menu1-2f",
+          "_isUserblock": true,
+          "_cid": "u7jF2a2yY8",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-right": "4rem",
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                "padding-bottom": "3rem"
+              }
+            },
+            ".mbr-text": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "header3",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"90\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/arches2-2000x1500.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#333333\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2022-03-10-at-4.04.29-pm-956x1275.jpeg\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\">\n                    <br><br>Devashish Gosain</h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">A nature enthusiast with a deep interest in security and networks. I completed my PhD from IIIT-Delhi in Computer Science (with specialization in network security) in 2020. Then, for two years, I worked as a postdoctoral researcher at <a href=\"https://www.mpi-inf.mpg.de/departments/inet\" style><b>INET research&nbsp;group</b></a><b>, </b>Max Planck Institute of Informatics, Germany<b> </b>with <a href=\"https://www.mpi-inf.mpg.de/departments/inet/people/anja-feldmann\" style=\"font-weight: bold;\"><b>Anja Feldmann</b></a>. I completed my second postdoc&nbsp;&nbsp;at <a href=\"https://www.esat.kuleuven.be/cosic/\"><b>COSIC research group</b></a><b style=\"font-style: italic;\">, </b><span style=\"font-style: italic;\">KU Leuven</span><b style=\"font-style: italic;\">,</b>&nbsp;Belgium &nbsp;with <a href=\"https://homes.esat.kuleuven.be/~cdiaz/\" style=\"font-weight: bold;\"><b>Claudia Diaz</b></a>.<br><br>I am an <a href=\"https://www.mpi-inf.mpg.de/departments/inet/people\" class=\"text-primary\" target=\"_blank\">associated researcher</a> at MPI-INF and is working as an assistant professor at BITS Pilani Goa&nbsp;since 1st August, 2023.&nbsp;I am joining department of<b> <i><a href=\"https://www.cse.iitb.ac.in/\" class=\"text-primary\" target=\"_blank\">computer science at </a><a href=\"https://www.cse.iitb.ac.in/\" class=\"text-primary\" target=\"_blank\">IIT Bombay</a></i> </b>as an assistant professor starting from June 2024. I am <b><i>looking for motivated folks</i></b> to join my group as PhD, masters or undergraduate research students. Interested folks must see <a href=\"page3.html\" class=\"text-primary\" target=\"_blank\">prospective students</a> web page before applying. Thanks!<br><br><i>Email IDs<b>:</b></i>&nbsp;&nbsp; dgosain [at] mpi-inf [dot] mpg [dot] de, <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;devashishg [at] iiitd [dot] ac [dot] in</p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"index.html#content9-t\" data-app-placeholder=\"Type Text\">&nbsp;PUBLICATIONS</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "s4AC9mrvxQ",
+          "_anchor": "header3-e",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".section-text\" mbr-text>Latest</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "s4OrVUmpOz",
+          "_anchor": "content9-1q",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-56px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#149dcc"
+            }
+          },
+          "_name": "content12",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li>Joining as assistant prof. at <b>IIT Bombay</b></li><li>Vice PC Chair <b>PoPETS 2024</b></li><li>Delivered a <b>talk at IETF MAPRG</b> session<br>[<a href=\"https://datatracker.ietf.org/meeting/119/materials/agenda-119-maprg\" class=\"text-primary\" target=\"_blank\">Talk Abstract</a>, Video <a href=\"https://youtu.be/XySxvye3AnY?t=6274\" class=\"text-primary\" target=\"_blank\">Link</a>]</li><li>Paper accepted at <b>PAM 2024</b></li><li>Two papers accepted at <b>IMC 2023</b></li><li>Paper accepted at <b>Usenix Security 2023</b></li><li>Paper accepted at<b> ICCCN 2023</b></li><li>Paper accepted at <b>PAM 2023</b></li><li>Paper accepted at<b> INFOCOM 2023</b></li><li>Paper accepted at <b>NDSS 2023</b></li><li>Paper accepted at <b>CCS 2022</b></li><li>August 1st 2022: Joined <b>KU Leuven&nbsp;</b>as postdoctoral researcher</li><li>Reviewer<b> ShadowTPC IMC 2022</b></li><li>Reviewer <b>ESORICS 2022</b></li><li>Demo Paper accepted at <b>ICNP 2021</b></li><li>Paper accepted at <b>WPES 2021 </b>(colocated with CCS)</li><li>Paper accepted at <b>LCN 2021</b></li><li>Paper accepted at <b>AsiaCCS 2021</b></li><li>Paper accepted at <a href=\"https://petsymposium.org/cfp21.php\" target=\"_blank\"><b>PETS 2021</b></a></li><li>Paper accepted at <a href=\"https://www.ieeelcn.org/\" target=\"_blank\"><b>LCN 2020</b></a></li><li>Poster accepted at <a href=\"https://petsymposium.org/2019/hotpets.php\" target=\"_blank\"><b>HotPets 2020</b></a><br>Link to the <a href=\"https://petsymposium.org/2020/files/hotpets/Mixim.pdf\" target=\"_blank\">poster</a></li><li>November 1st 2020: Joined Max Planck Institite of Informatics as postdoctoral researcher</li><li>12 August 2020: Successfully defended my PhD thesis. <br>Committee: <a href=\"https://people.cs.umass.edu/~amir/\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">Prof. Amir Houmansadr</a><span style=\"font-size: 1rem;\">, </span><a href=\"https://www.caida.org/~amogh/\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">Dr. Amogh Dhamdhere</a><span style=\"font-size: 1rem;\">‬ and </span><a href=\"https://www.cse.iitb.ac.in/~vinayr/\" target=\"_blank\" style=\"font-size: 1rem; background-color: rgb(255, 255, 255);\">Prof. Vinay J. Ribeiro</a><br>Link to my PhD <a href=\"assets/files/PhD_Thesis.pdf\" target=\"_blank\">thesis</a></li><li><span style=\"font-size: 1rem;\">Reviewer for IEEE Access</span></li><li>February 2020: Submitted my PhD thesis</li><li>Winter Sem 2019:<b> </b>Visiting scholar at Brigham Young University (BYU), USA in <a href=\"https://isrl.byu.edu/\" target=\"_blank\">ISRL</a> lab</li><li>August 2019: Successfully defended my PhD comprehensive exam&nbsp;<br>Committee: <a href=\"http://vinayaknaik.info/\" target=\"_blank\">Prof. Vinayak Naik</a>, <a href=\"https://pushpendrasingh.org/\" target=\"_blank\">Prof. Pushpendra Singh</a> (Internal examiners) and <br><a href=\"https://angelosk.github.io/cv.html\" target=\"_blank\">Prof. Angelos Keromytis</a> (External examiner)</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s4OrKPDyqn",
+          "_anchor": "content12-1p",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><b>\n                    List of Publications</b></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "s4B5YerMz9",
+          "_anchor": "content9-t",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ol": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "padding-left": ".5rem",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-56px",
+                      "margin-top": "-10px",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content11",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>Out in the Open: On the Implementation of Mobile App Filtering in India<br></b>accepted for publication in proceedings of Passive and Active Measurements<b> (PAM)&nbsp;</b><br>Devashish Gosain, Kartikey Singh, Rishi Sharma, Jithin S, Sambuddho, 2024<a href=\"assets/files/On_app_filtering_in_India_PAM_24_Camera_Ready.pdf\" class=\"text-primary\" target=\"_blank\"> [link]</a></li><li><b>Thou Shalt Not Reject: Analyzing Accept-Or-Pay Cookie Banners on the Web<br></b><span style=\"font-size: 1rem;\">accepted for publication in proceedings of Internet Measurement Conference</span><b style=\"font-size: 1rem;\"> (IMC).<br></b><span style=\"font-size: 1rem;\">Authors: Ali Rasaii, <b>Devashish Gosain</b> and Oliver Gasser, 2023 <a href=\"https://bannerclick.github.io/\" class=\"text-primary\" target=\"_blank\">[link]</a></span></li><li><span style=\"font-size: 1rem;\"><b>PTPerf: On the performance evaluation of Tor Pluggable Transports</b><br>accepted&nbsp;</span>for publication in proceedings of Internet Measurement Conference <b>(IMC)</b>.<br>Authors: Zeya Umayya, Dhruv Malik, <b>Devashish Gosain</b>, Piyush Kumar Sharma, 2023 <a href=\"https://ptperf.github.io/\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>A Multi-perspective Study of User Perception and Expectation of Deniability</b><br>accepted for publication in proceedings of <b>Usenix Security</b><br>Authors: Tarun Kumar Yadav, <b>Devashish Gosain</b>, Kent Seamons, 2023 <a href=\"https://www.usenix.org/conference/usenixsecurity23/presentation/yadav\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Predictable Internet Clients and In-Switch Deep Packet Inspection</b><br>accepted for publication in proceedings of 32nd International Conference on Computer Communications and Networks <b>(ICCCN)</b><br>Authors: Sahil Gupta, <b>Devashish Gosain</b>, M Kwon, HB Acharya, 2023 <a href=\"assets/files/ICCCN_2023.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Exploring the Cookieverse: A Multi-Perspective Analysis of Web Cookies\n<br></b><span style=\"font-size: 1rem;\">accepted for publication in proceedings of Passive and Active Measurements <b>(PAM)</b></span><span style=\"font-size: 1rem;\"><b>&nbsp; </b><br>Authors: Ali Rasaii, Shivani Singh, <b>Devashish Gosain</b>, Oliver Gasser, 2023 <a href=\"https://bannerclick.github.io/\" class=\"text-primary\" target=\"_blank\">[link]</a></span></li><li><b>On the Anonymity of Peer-To-Peer Network Anonymity Schemes Used by\n&nbsp;</b><span style=\"font-size: 1rem;\"><b>Cryptocurrencies</b><br>accepted for publication in proceedings of Network and Distributed&nbsp;</span><span style=\"font-size: 1rem;\">Security Symposium</span><b style=\"font-size: 1rem;\"> (NDSS)<br></b><span style=\"font-size: 1rem;\">Authors: Piyush Kumar Sharma, <b>Devashish Gosain</b>, Claudia Diaz, 2023 <a href=\"https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s241_paper.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></span></li><li><b>DeeP4R: Deep Packet Inspection in P4 using Packet Recirculation</b><br>accepted for the publication in proceedings of International Conference on Computer Communications (<b>INFOCOM</b>)<br>Authors: Sahil Gupta, <b>Devashish Gosain</b>, M Kwon, HB Acharya, 2023 <a href=\"assets/files/DeeP4R.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Automatic Detection of Fake Key Attacks in Secure Messaging</b><br>accepted for the publication in Proceedings of Conference on Computer and Communications Security <b>(CCS)</b><br>Authors: Tarun Kumar Yadav, <b>Devashish Gosain, </b>Amir Herzberg, Daniel Zappala, Kent Seamons, 2022 <a href=\"https://arxiv.org/pdf/2210.09940.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>MiXiM: Mixnet design decisions and empirical evaluation</b><br>accepted for the publication in Proceedings on Workshop on Privacy in the Electronic Society <b>(WPES)</b><br>Authors: Iness Ben Guirat, <b>Devashish Gosain</b>, Claudia Diaz, 2021 <a href=\"https://www.esat.kuleuven.be/cosic/publications/article-3403.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Simple Deep Packet Inspection with P4</b><br>accepted as a demo paper for the publication in Proceedings on International Conference on Network Protocols <b>(ICNP)</b><br>Authors: Sahil Gupta, <b>Devashish Gosain</b>, G Grigoryan, M Kwon, HB Acharya, 2021 <a href=\"https://icnp21.cs.ucr.edu/papers/icnp21camera-paper39.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Telemetron: Measuring Network Capacity Between\n&nbsp;</b><span style=\"font-size: 1rem;\"><b>Off-Path Remote Hosts&nbsp;</b><br>accepted for the publication in Proceedings on Local Computer Networks <b>(LCN)</b>&nbsp;<br>Authors: <b>Devashish Gosain</b>, A. Jaiswal, HB Acharya, S. Chakravarty, 2021 <a href=\"assets/files/Telemetron.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></span></li><li><b>Camoufler: Accessing The Censored Web By Utilizing InstantMessaging Channels</b><br>accepted for the publication in Proceedings on <b>AsiaCCS<br>Authors: </b>Piyush Kumar Sharma<b>, Devashish Gosain, </b>S. Chakravarty,<b> </b>2021 <a href=\"https://censorbib.nymity.ch/pdf/Sharma2021a.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Too Close for Comfort: Morasses of (Anti-)\nCensorship in the Era of CDNs</b><br>accepted for the publication in Proceedings on Privacy Enhancing Technologies <b>(PoPETS)</b><br>Authors: <b>Devashish Gosain</b>, Mayank Mohindra, Sambuddho Chakravarty, 2021 <a href=\"https://petsymposium.org/popets/2021/popets-2021-0023.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Maginot Lines and Tourniquets :\n</b><b style=\"font-size: 1rem;\">On the Defendability of National Cyberspace<br></b><span style=\"font-size: 1rem;\">accepted for the publication in Proceedings on Local Computer Networks Symposium&nbsp;<b>(LCN)</b>.<br>Authors: <b>Devashish Gosain</b>, Madhur Rawat, Piyush Kumar Sharma, H.B Acharya, 2020 <a href=\"assets/files/Maginot_Lines_and_Tourniquets.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></span></li><li><b>SiegeBreaker: An SDN Based Practical Decoy Routing System,&nbsp;</b>accepted for\n the publication in Proceedings on Privacy Enhancing Technologies <b>(PoPETS)</b>. <br>Authors: Piyush Kumar Sharma, <b>Devashish Gosain</b>, Himanshu Sagar, Chaitanya Kumar, Aneesh Dogra, Vinayak Naik, H.B. Acharya, Sambuddho Chakravarty, 2020 <a href=\"https://petsymposium.org/popets/2020/popets-2020-0051.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a><br></li>\n                    <li><b>CAMP: cluster aided multi-path routing protocol for wireless sensor networks, </b>accepted for the publication in <b>Wireless Networks</b>, Springer.\n<br>Authors: Mohit Sajwan, <b>Devashish Gosain</b>, Ajay. K. Sharma, 2019 <a href=\"assets/files/CAMP.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Where The Light Gets In: Analyzing Web Censorship Mechanisms in India</b><br>accepted for the publication in proceedings of Internet Measurement Conference <b>(IMC)</b>.<br>Authors: Tarun Kumar Yadav*, Akshat Sinha*,<b> Devashish Gosain*</b>, Piyush Sharma, Sambuddho\n Chakravarty, 2018. (*All authors have equal contributions.) <a href=\"https://conferences.sigcomm.org/imc/2018/papers/imc18-final143.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Hybrid energy-efficient multi-path routing for wireless sensor networks,</b> accepted\n for the publication in Journal of Computers and Electrical Engineering, Elsevier. <br>Authors: Mohit Sajwan, <b>Devashish Gosain</b>, Ajay. K. Sharma, 2018 <a href=\"assets/files/HEEMP.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>The Devil’s in The Details: Placing Decoy Routers in the Internet<br></b>accepted for\n the publication in proceedings of Annual Computer Security Applications Conference <b>(ACSAC)</b>. &nbsp;<br>Authors: <b>Devashish Gosain</b>, Anshika Aggarwal, H. B. Acharya and Sambuddho Chakravarty, 2017 <a href=\"https://arxiv.org/pdf/1710.05527.pdf\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Mending Wall: On the Implementation of Censorship in India <br>(Best Student\n Paper Award)&nbsp;</b>accepted for the publication in proceedings of EAI International Conference on Security and Privacy in Communication Networks <b>(SECURECOMM). </b><br>Authors: <b>Devashish Gosain</b>, Anshika Aggarwal, Sahil Shekhawat, H. B. Acharya and Sambuddho Chakravarty, 2017 <a href=\"https://crysp.uwaterloo.ca/courses/pet/F18/cache/link.springer.com/content/pdf/10.1007/978-3-319-78813-5_21.pdf\" class=\"text-primary\">[link]</a></li><li><b>Few Throats to Choke: On the Current Structure of the Internet<br></b>accepted for the publication in proceedings of Local Computer Networks <b>(LCN).</b><br>Authors: H. B. Acharya*, Sambuddho Chakravarty* and <b>Devashish Gosain</b>*, 2017&nbsp;<br>(*All authors have equal contributions.)&nbsp;</li><li><b>DSERR: Delay Sensitive Energy Efficient Reliable Routing Algorithm for wireless sensor networks,</b> accepted for the publication in Wireless Personal Communication <b>(WPC)</b>, Springer. <br>Authors: <b>Devashish Gosain</b>, Itu Snigdh, Mohit Sajwan, 2017 <a href=\"https://www.researchgate.net/publication/318896453_DSERR_Delay_Sensitive_Energy_Efficient_Reliable_Routing_Algorithm#fullTextFileContent\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Analysis of scalability for routing protocols in wireless sensor networks, </b>International Journal for Light and Electron Optics <b>(Optik)</b>, Elsevier. <br>Authors: <b>Devashish Gosain</b>, Itu Snigdh, 2016 <a href=\"https://pdf.sciencedirectassets.com/273239/1-s2.0-S0030402615X00222/1-s2.0-S0030402615017027/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFFvCIoX8c%2FvzjXsYGuHj3PoSBn3JlWPAWe7MlnF1TOJAiEAyMcgniFGVbUaiUfNE%2BT4vWfpIck6z6V%2FXyWW8O5aDCsquwUIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDLhOurv43qUoKCKtsiqPBZ5aSS54wtQMwnfCFORGeWYyjZ%2FQiSlh7q6gP3tFafqR%2BPUwxiUMihHCZy4oah1d%2BWuypK%2BcXCs3Q4KGTHmAJgz0DJqOj1UzBPnKMTB%2BGafhPMPAM1b91XPxq0OiDYrPSTLMaNJfmB68IPn7RTqDFIV7s%2BBK8gZcZ4O5KjLCS1doMxih1Rt0%2BRdMlFpGkt6KNkrcz9MSKMPuIP8zBAWKFgDKzYT1pwUX6IQj3wDtNmQWccNFWeiOBjLGZU59LLOjZDulxhkCrXF%2F6U40fhlMqfoSl90GKKo%2BpK4%2FoXJsRPyBS4%2For0mNBe3kgft73ZQCzcjdm4Vm240QzRRlPoi2%2FtKSay5GsnnUdeo5izRi%2BpYmecNflMU5E07Gz6JPFW6NpRodtRQ%2FCudMTcTvZAvTgSmWFGrwFHtZFfcq6kgz5UkXcbL8FX%2FFDUQUhITht%2Bgb3qPlx2QNM%2BqQf95p5AcXbVIgUfDNBSzezy32VESElrBSfkBaJkcuRdX%2Fl9MDU2DdiSuVH6TKwY0A6eiicnFpWDZc55K3BLcL8CophlqzXKELEKnqvePiTBCz5fwhDbuEiAeUEoKyokVCF%2B0IntCynLh8XdvdW5gX%2B%2FfVKrLrZqc5%2BZ%2FSUey2N9jHnNrnY3Ag0xfYQ8uUKYaDHB%2FXnr9NHyLWD2GELz40NEj5FA9aKg731%2B2pCwD18psVGi0OdaA5LwiVNYiRRtevVtl2I%2BVg1CaBucb7jNGD9QldiD876O1boHbcjCasGmP%2BaPAzaT%2B91oirZ3%2BIOkJxYeiVI16X2TkfmRpKg30U0pSbAkfZDPtZtFT6eaYPos%2BAvjsVt4lr4zz%2F6RaADRTVSn%2B1GAKvqMtJYIeyOLLawI6hMckppZQwxKHVqAY6sQEDog%2BW4Y7TNEGcPGdQmoUn6qXV%2BJg7JqVlh132wofmVy9Vh8He8lgJp1j%2FttgPCMQ7N2klVyFlNqCNwM%2F2Dbt%2FDLl1xYs7fyFq6pg9HiooQBkaMgG2Ss90FkX8ForBcr27iuM7V%2FAYifC05MvfuGal98I83tbzLCmprU87RFRfK8vWTg0CTECJfHO%2BLVEfIrdlpcHi3WwG0%2Fzzgba3DUB664B6brKihb6q6TmE2cXx%2B1A%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230928T103941Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYRPOKGAYQ%2F20230928%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=32578f4c98c0a06509ef3e460e0c527213296285398a1b33bb5127fcd0a23f6e&hash=046b9cb188f26bc9c6eac4365272655c41066560fd72c2d4a6d7acd5d77045d1&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0030402615017027&tid=spdf-633a9f70-5b01-4c2f-b044-f9ae7e15ebbb&sid=6abc42e3745023415a4b6435e2702adb9462gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=13085a540100570b575650&rr=80db5d2859e946b6&cc=in\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Optimal sink placement in backbone assisted wireless sensor networks,</b> Egyptian Informatics Journal <b>(EIJ)</b>, Elsevier. <br>Authors: Itu Snigdh,<b> Devashish Gosain</b>, Nisha Gupta, 2016 <a href=\"https://pdf.sciencedirectassets.com/280281/1-s2.0-S1110866516X00035/1-s2.0-S1110866515000626/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFFvCIoX8c%2FvzjXsYGuHj3PoSBn3JlWPAWe7MlnF1TOJAiEAyMcgniFGVbUaiUfNE%2BT4vWfpIck6z6V%2FXyWW8O5aDCsquwUIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDLhOurv43qUoKCKtsiqPBZ5aSS54wtQMwnfCFORGeWYyjZ%2FQiSlh7q6gP3tFafqR%2BPUwxiUMihHCZy4oah1d%2BWuypK%2BcXCs3Q4KGTHmAJgz0DJqOj1UzBPnKMTB%2BGafhPMPAM1b91XPxq0OiDYrPSTLMaNJfmB68IPn7RTqDFIV7s%2BBK8gZcZ4O5KjLCS1doMxih1Rt0%2BRdMlFpGkt6KNkrcz9MSKMPuIP8zBAWKFgDKzYT1pwUX6IQj3wDtNmQWccNFWeiOBjLGZU59LLOjZDulxhkCrXF%2F6U40fhlMqfoSl90GKKo%2BpK4%2FoXJsRPyBS4%2For0mNBe3kgft73ZQCzcjdm4Vm240QzRRlPoi2%2FtKSay5GsnnUdeo5izRi%2BpYmecNflMU5E07Gz6JPFW6NpRodtRQ%2FCudMTcTvZAvTgSmWFGrwFHtZFfcq6kgz5UkXcbL8FX%2FFDUQUhITht%2Bgb3qPlx2QNM%2BqQf95p5AcXbVIgUfDNBSzezy32VESElrBSfkBaJkcuRdX%2Fl9MDU2DdiSuVH6TKwY0A6eiicnFpWDZc55K3BLcL8CophlqzXKELEKnqvePiTBCz5fwhDbuEiAeUEoKyokVCF%2B0IntCynLh8XdvdW5gX%2B%2FfVKrLrZqc5%2BZ%2FSUey2N9jHnNrnY3Ag0xfYQ8uUKYaDHB%2FXnr9NHyLWD2GELz40NEj5FA9aKg731%2B2pCwD18psVGi0OdaA5LwiVNYiRRtevVtl2I%2BVg1CaBucb7jNGD9QldiD876O1boHbcjCasGmP%2BaPAzaT%2B91oirZ3%2BIOkJxYeiVI16X2TkfmRpKg30U0pSbAkfZDPtZtFT6eaYPos%2BAvjsVt4lr4zz%2F6RaADRTVSn%2B1GAKvqMtJYIeyOLLawI6hMckppZQwxKHVqAY6sQEDog%2BW4Y7TNEGcPGdQmoUn6qXV%2BJg7JqVlh132wofmVy9Vh8He8lgJp1j%2FttgPCMQ7N2klVyFlNqCNwM%2F2Dbt%2FDLl1xYs7fyFq6pg9HiooQBkaMgG2Ss90FkX8ForBcr27iuM7V%2FAYifC05MvfuGal98I83tbzLCmprU87RFRfK8vWTg0CTECJfHO%2BLVEfIrdlpcHi3WwG0%2Fzzgba3DUB664B6brKihb6q6TmE2cXx%2B1A%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230928T104047Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=ASIAQ3PHCVTYRPOKGAYQ%2F20230928%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=de16a2ac06440ef520841b45534679b27152ce683f64c196a1a4581b89f61a8c&hash=c1126a7e72a27970a79ce4e2ad8e1214b65cea0a8fe07fd2dc27a67ef804b005&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1110866515000626&tid=spdf-40e9ba3b-b0a5-4f85-a4b8-e9fc871cb466&sid=6abc42e3745023415a4b6435e2702adb9462gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=13085a540100570a065607&rr=80db5ec8bec146b6&cc=in\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Energy Analysis for Trajectory based Sink Mobility in WSN, </b>Procedia Computer\n Science, Elsevier. <br>Authors: Itu Snigdh, <b>Devashish Gosain</b>, 2015 <a href=\"https://pdf.sciencedirectassets.com/280203/1-s2.0-S1877050915X00123/1-s2.0-S1877050915013381/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQDiGjIyBqMO%2B3Jl4UbbgXqOoi1KlvP69Z23uPrK0HaFuwIgMTG1va2YfZMUf4lL4PKaQe1Eb6BQtlS7RXzAF%2BKPxB0quwUIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDIvJXyqD9dA1kx%2B%2BnCqPBUOcsZjToJZPiCX1qm0hEWTGbwsBY44kpnHbD%2F8QE0IOQ%2FbrbQy7NEFNPxHR7v8CYv6WnhTvD%2BGIWpPXymcgrLn%2FirB5BxVN6HSFo1aMYQRNGub2ZrasSvYad9RFK8BiUnh1LPizxh3EPqTUkaec6yK2iSW7VKh%2BlJTAyR2EekaA0s%2B8AnNwbZCZRE1CqUePMy07TFO8Xp%2BHQntxo%2BqiSgauvzWoJFQwzgWEh6MkLVQKLwMsJ5jm7Wx0WqoD5G%2BliPGv4MhyR7CRY4xCEV3RYhMebsrzESAe7nzMp6vLMZHAcuiyKEEObUH%2FsPVuNBDj1yUpLGc9VGP5yya1zHIhQsc5JfuIB4IqDebq2IXWD7UyFzG9pcpSk7ngLH7JKzEPWnp7G2gGjxlfMWqxEGB4qFB3fWkKkj4uA5NwSKSwEqYKbkY0qwcrB8Q4GnGnE404AmgurexKrfHBIWqUxLvqmgsgsOn2xH%2BVT%2FyaLtVDksmHhFXJ7%2BqNxjPyLV%2B%2Bs5iXBcrb8FDB%2FDLsTti%2Bsi8AUxmCedSTIBd7Ft83b1Mvs2lB34M0ccfa3B6t%2FsPDUCNa2ZxQnrJI3nTSMEH6Iykws0jsRubXplhD0wOqDjFSztb4K4H%2BzsRMvikiiLY1di%2FmZgLpaEPc2znI05WR8st7UgLyrnDBxvMi97Y2M7VczohK9LanKjopbP7PtWiyGUV%2Fsqh0KlwqgmbKCflI34byBGi%2Fg2Inh%2BIs0YsDN2aeKHqHvRE%2BBcgdBMTDet42ip0rPcOjOmQtc5zAlf3IiZ2RCqyIOHJ9UDMDgL1dtyO16x1VRntlcvuVOa651w0LHKfMfN0Re8hFF5VsvUlZzp1k47Cur4WDoX9dSEf9S2BaYMYwh5HVqAY6sQFQreRRQ8ixC3O7wiHgGiJuudxQc501chNwWxdzNLANjh1LHKuKzor4Ik3dPQdpaaDnQo6Ei%2Fwy2d2%2BZec7yGtKbghnXu2oMfgB21naIxZFZwAliM%2BmxA56lufJIdyNapkJQc%2Ffu4GMH72qsIgKy%2FiPU7saK1%2BXcyNjMpwMk2mKmeW%2BZoy7oLa4aNr8LDNKEWjey%2FPA7uHLd%2FWaAyrLCxZLHLPPLcy%2BL3LShS9Fj07aUQU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230928T104205Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY6BJPL7UM%2F20230928%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c08713299a44db818355d50ecbb6cafde3d36086fd1e180f1f318a5133ebe7d5&hash=4e0cc03bfa5fce41e9b21e77ebe4e57244b6cd72ea91ea6c52ae7ee8756126a2&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1877050915013381&tid=spdf-401f0d91-1ec9-46f2-9227-395cbfad9951&sid=6abc42e3745023415a4b6435e2702adb9462gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=13085a540100545f075f55&rr=80db60b10eab46b6&cc=in\" class=\"text-primary\" target=\"_blank\">[link]</a></li><li><b>Performance Comparison of Routing Protocols in Bipartite Wireless Sensor\n Network<br></b>International Journal of Electrical and Computer Engineering <b>(IJECE)</b>,<br>Authors: <b>Devashish Gosain</b>, Itu Snigdh, 2015 <a href=\"https://www.researchgate.net/publication/336888267_Performance_Comparison_of_Routing_Protocols_in_Bipartite_Wireless_Sensor_Network\" class=\"text-primary\" target=\"_blank\">[link]</a></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s4B4cFgYlU",
+          "_anchor": "content11-p",
+          "_sourceTheme": "mobirise4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "Community Services",
+        "order": "3"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "visibility": "hidden",
+                "display": "block",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "visibility": "visible"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 1024px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 1023px)": {
+              ".navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#55b4d4\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo2-1.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#header3-e\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-home mbr-iconfont mbr-iconfont-btn\"></span>Home&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#content11-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-bulleted-list mbr-iconfont mbr-iconfont-btn\"></span>Publications&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"assets/files/Devashish_CV.pdf\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-link mbr-iconfont mbr-iconfont-btn\"></span>CV&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-users mbr-iconfont mbr-iconfont-btn\"></span>Community <br>Service&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page3.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>Prospective&nbsp;<br>Students</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>Research<br>Interests</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">&nbsp; CV</a></div>\n        </div>\n    </nav>\n</section>",
+          "_anchor": "menu1-2f",
+          "_isUserblock": true,
+          "_cid": "u7jF2a2yY8",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-56px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content12",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <div><br><br><br></div><ul>\n                    <li>2024 Vice PC Chair, Proceedings on Privacy Enhancing Technologies <b>(PoPETS)</b>.</li><li>2024 PC member, Usenix Security <b>(Usenix Security)</b>.\n</li><li>2024 PC member, Computer and Communications Security <b>(CCS)</b>.\n</li><li>2024 PC member, Internet Measurement Conference <b>(IMC)</b>.\n</li><li>2024 PC member, Network Traffic Measurement and Analysis Conference <b>(TMA)</b>.\n</li><li>2024 PC member, Security and Privacy in Wireless and Mobile Networks (WiSec).\n</li><li>2023 PC member, Proceedings on Privacy Enhancing Technologies <b>(PoPETS)</b>.\n</li><li>2023 PC member, European Symposium on Research in Computer Security <b>(Esorics)</b>.\n</li><li>2023 PC member, International Conference on Applied Cryptography and Network Security <b>(ACNS)</b>.</li><li>2022 PC member, European Symposium on Research in Computer Security <b>(Esorics)</b>.\n</li><li>2022 PC member, Formal Foundations and Security of Programmable network Infrastructures <b>(FFSPIN)</b>, co-located with ACM SIGCOMM.\n</li><li>2022 PC member, <b>IMC</b> (Shadow PC).\n</li><li>2020 Reviewer, IEEE Acess Journal</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u7jAz5yOKl",
+          "_anchor": "content12-2a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "meta_descr": "Website Maker Description",
+        "title": "Prospective Students",
+        "order": "2"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "visibility": "hidden",
+                "display": "block",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "visibility": "visible"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 1024px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 1023px)": {
+              ".navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#55b4d4\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo2-1.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#header3-e\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-home mbr-iconfont mbr-iconfont-btn\"></span>Home&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#content11-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-bulleted-list mbr-iconfont mbr-iconfont-btn\"></span>Publications&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"assets/files/Devashish_CV.pdf\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-link mbr-iconfont mbr-iconfont-btn\"></span>CV&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-users mbr-iconfont mbr-iconfont-btn\"></span>Community <br>Service&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page3.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>Prospective&nbsp;<br>Students</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>Research<br>Interests</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">&nbsp; CV</a></div>\n        </div>\n    </nav>\n</section>",
+          "_isUserblock": true,
+          "_cid": "u7jF2a2yY8",
+          "_anchor": "menu1-2g",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "color": "#149dcc"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><br><br>I am looking for <b>``motivated'' </b>folks, who are interested in pursuing PhD, internship, (under)graduate thesis in networks and security research. Please take a moment and understand my working philosophy and type of research I conduct. If you are still interested please send an email with subject \"Looking for <b>*</b> opportunity\". Replace <b>* </b>with PhD/Internship/(under)graduate thesis option.</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "u8qnOSrlG0",
+          "_anchor": "content9-32",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content3",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p><br></p><p><span style=\"font-size: 1.5rem;\">करत करत अभ्यास के जड़मति होत सुजान;&nbsp;</span><br></p><p>रसरी आवत जात ते सिल पर परत निसान ||</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p><br></p><p><span style=\"font-size: 1.5rem;\">''Persistence makes even a dumb man intelligent, just like (even) a soft rope, when rubbed continuously on stone, makes a mark on it.''</span><br></p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u8jN0NM47C",
+          "_anchor": "content3-2i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ul": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem",
+                  "& when (@stylizedCounters)": {
+                    "list-style": "none",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-56px",
+                      "margin-top": "-10px",
+                      "padding-top": "3px",
+                      "content": "''",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "20px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "25px",
+                      "height": "25px",
+                      "border-radius": "50%",
+                      "& when (@countersType = 'circle')": {
+                        "background": "none",
+                        "border": "1px solid @counterColor",
+                        "color": "@counterColor"
+                      },
+                      "& when (@countersType = 'square')": {
+                        "border-radius": "0"
+                      },
+                      "& when (@mark)": {
+                        "content": "'✓'"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content12",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" checked condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li>The above \"मंत्र\" (`mantra') will help you in navigating your five years as a PhD scholar and then rest of your life, if you choose academia is your career.&nbsp;</li><li>If you believe in the power of hard work and persistence, we can work together.</li>\n                    <li>I strongly emphasize and respect the honest and genuine efforts by the students.</li>\n                    <li>In research there are NO short cuts; the process is simple yet hard to practice, i.e., TRY, TRY and TRY...\"</li><li>There is a difference between mastery and outcome goals (see <a href=\"https://selfdeterminedlife.com/mastery-goals/\" class=\"text-primary\" target=\"_blank\">link</a>). Although a perfect distinction cannot be made, but if you are inclined towards the mastery goals, you are welcome to apply.</li><li>Rest assured that you will not be alone in your research journey;&nbsp; your advisor will always be with you (but only in the <i>supportive</i> role). Your research is your own story...&nbsp;</li><li>The important quality you must have is the habit to constructively \"inquire\". In the words of George Carlin...</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u8vCMRyI2q",
+          "_anchor": "content12-33",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\"Tell people there’s an invisible man in the sky who created the universe, and the vast majority will believe you. Tell them the paint is wet, and they have to touch it to be sure\"<br></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "u8jWGEcHVq",
+          "_anchor": "content9-2k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>&nbsp;&nbsp;<br><span style=\"font-size: 3rem;\">RESEARCH THRUST AREAS</span></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u8qlgUNVNv",
+          "_anchor": "content1-31",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/test-1299x589.png\" width=\"1400\" alt=\"Mobirise\">\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Create awesome websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_cid": "u8pKE8SB5K",
+          "_anchor": "image1-2p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>I work at the intersection of networks, security and privacy. I can divide my thrust areas into four broad categories (as shown above). If you are keen to know more about these research areas, please refer to this <a href=\"page4.html\" class=\"text-primary\" target=\"_blank\">link</a>.&nbsp;</p><p>If you feel motivated enough to work with me, let me try to demotivate you once more. Here comes the bread-and-butter of PhD scholars---PUBLISH or perish (<a href=\"https://www.scribendi.com/academy/articles/publish_or_perish.en.html#:~:text=Publish%20or%20perish.,studying%20academia%20as%20a%20career.\" class=\"text-primary\" target=\"_blank\">huhh</a>).</p><p>In computer science, there are some competitive conferences where we regularly try to publish our work. Typically their acceptance rate is less than 20%. Often these venues have \"out-of-the-world\" research expectations and thus paper rejection is a norm, and acceptance is an anomaly.<br><br><b>A typical research paper cycle </b>is as follows<b>:</b></p><p>Idea (day 1)--&gt; The first draft gets ready (one to 1.5 years)--&gt; The improved version and submission (3--6 months)---&gt; The paper gets rejected (3 months)---&gt; resubmission and rejection ---&gt; (2 to 5 months) ---&gt; REJECTION and RESUBMISSION (on repeat mode) ---&gt; The paper gets accepted.&nbsp;<br><b>Total two years (approx.)</b></p><p>A few top academically acclaimed conferences that you and I will aim for are:</p><p><b>In Security:</b>  IEEE S&amp;P (Oakland), CCS, NDSS, Usenix Security, PoPETS, AsiaCCS, ACSAC, Esorics, Euro S&amp;P</p><p><b>In Networks and Measurements:</b> ACM Sigcomm, IEEE Infocom, ACM IMC, CoNEXT, PAM, TMA, WWW<br><br>Ideally, one expects three to four solid papers published in these venues if you aim for a world-class PhD; thus, five years in PhD must not be taken as ``too much time''. It is not ! This naturally means that in your late second year or third year you should ideally work on two problems parallelly. You will be the lead actor in this movie, but I will try my best to have solid supporting actors (masters/ undergrad/ interns) working with you under my direction. I strongly encourage collaborative environment (including international peers). But it largely depends on your approach towards research, ability to lead the group, handling tantrums of your team members, off time zones (if international collaborators are involved), etc. These are just some pointers and many more factors will come into play in your arduous journey called as PhD.<br>&nbsp;<br>These (harsh) rejections and other obstacles may deviate you from mastery to outcome <a href=\"https://selfdeterminedlife.com/mastery-goals/\" class=\"text-primary\" target=\"_blank\">goals</a>. The real challenge is to still stuck to the mastery goals.<br><br>Some other essential points that will further help you to decide whether PhD in systems is your cup of tea is by reading the excellent blogs written by Biswa (systems faculty at IIT Bombay). They are:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><b>1.</b> <i>All you have got is all it takes: Doing Top-quality Computer Architecture/systems Research, Cricket, and the Indian Research Ecosystem</i> (<a href=\"https://biswabandan.medium.com/all-you-have-got-is-all-it-takes-doing-top-quality-computer-architecture-systems-research-2573dc3bda02\" class=\"text-primary\" target=\"_blank\">link</a>). [A nice overview of how to approach a good systems research problem and taking baby steps in the right direction].</p><p><b>2.</b> <i>Just Say “NO” to a Ph.D. in Computer Systems: An Indian perspective</i> (<a href=\"https://biswabandan.medium.com/just-say-no-to-ph-d-in-computer-systems-an-indian-perspective-a6c20294101b\" class=\"text-primary\" target=\"_blank\">link</a>) [What you must not expect from a PhD]<br></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u8pKRV4mvG",
+          "_anchor": "content1-2q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "meta_descr": "Website Maker Description",
+        "title": "Research Interests",
+        "order": "1"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "visibility": "hidden",
+                "display": "block",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "visibility": "visible"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 1024px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 1023px)": {
+              ".navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#55b4d4\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.co\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo2-1.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a></li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#header3-e\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-home mbr-iconfont mbr-iconfont-btn\"></span>Home&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#content11-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-bulleted-list mbr-iconfont mbr-iconfont-btn\"></span>Publications&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"assets/files/Devashish_CV.pdf\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-link mbr-iconfont mbr-iconfont-btn\"></span>CV&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page2.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-users mbr-iconfont mbr-iconfont-btn\"></span>Community <br>Service&nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page3.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-rocket mbr-iconfont mbr-iconfont-btn\"></span>Prospective&nbsp;<br>Students</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>Research<br>Interests</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">&nbsp; CV</a></div>\n        </div>\n    </nav>\n</section>",
+          "_isUserblock": true,
+          "_cid": "u7jF2a2yY8",
+          "_anchor": "menu1-2r",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content2",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article data-app-selector=\".mbr-text, blockquote\">\n                <blockquote><p><b><br></b></p><p><span style=\"font-size: 1.09rem;\">My research interests lie at the confluence of </span><b style=\"font-size: 1.09rem;\">networks, security</b><span style=\"font-size: 1.09rem;\">&nbsp;</span><b style=\"font-size: 1.09rem;\">and privacy</b><span style=\"font-size: 1.09rem;\"> research. My&nbsp;</span><span style=\"font-size: 1.09rem;\">research goal is to design, build and deploy secure and privacy-preserving technologies that are&nbsp;</span><span style=\"font-size: 1.09rem;\">scalable and usable. My past and current research efforts can be divided into the following broad&nbsp;</span><span style=\"font-size: 1.09rem;\">areas:</span><br></p><p><span style=\"font-size: 1.09rem;\"><br></span><b style=\"font-size: 1.09rem;\">1. Empirically studying Internet privacy laws (e.g., GDPR [1]). <a href=\"page4.html#content1-2t\" class=\"text-primary\">(link)</a><br></b><b style=\"font-size: 1.09rem;\">2. Studying large-scale Internet filtering and circumvention techniques. </b><span style=\"font-size: 1.09rem;\"><span style=\"font-style: normal;\"><a href=\"page4.html#content1-2u\" class=\"text-primary\">(link)</a></span><br></span><b style=\"font-size: 1.09rem;\">3. Building and studying deep packet inspection (DPI) [2] enabled routing infrastructure. </b><span style=\"font-size: 1.09rem;\"><span style=\"font-style: normal;\"><a href=\"page4.html#content1-2u\" class=\"text-primary\">(link)</a></span><br></span><b style=\"font-size: 1.09rem;\">4. Developing anonymous communication schemes (Tor [3], Mixnets [4], etc.). </b><span style=\"font-size: 1.09rem;\"><span style=\"font-style: normal;\"><a href=\"page4.html#content1-2v\" class=\"text-primary\">(link)</a></span><br></span><b style=\"font-size: 1.09rem;\">5. Studying security properties of end-to-end encryption offered by protocols like Signal. </b><span style=\"font-size: 1.09rem; font-style: normal;\"><a href=\"page4.html#content1-2w\" class=\"text-primary\">(link)</a></span></p></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u8pNnmM9oi",
+          "_anchor": "content2-2s",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><b>Studying Data Privacy Regulations:</b> Online services (e.g., websites) monetize their audience&nbsp;<span style=\"font-size: 1rem;\">through advertising and data collection without prior consent. They use trackers, i.e., third-party&nbsp;</span><span style=\"font-size: 1rem;\">services which profile users’ sensitive information (e.g., browsing activity) to display targeted ads&nbsp;</span><span style=\"font-size: 1rem;\">and personalized content. Numerous such tracking platforms exist, with many of them gathering&nbsp;</span><span style=\"font-size: 1rem;\">information from almost all netizens. This has led to the creation of regulatory bodies that have&nbsp;</span><span style=\"font-size: 1rem;\">started governing the scenario. General Data Protection Regulation (GDPR) [1] enforced in Europe&nbsp;</span><span style=\"font-size: 1rem;\">is the most comprehensive law to protect the privacy of data related to all its citizens. There are&nbsp;</span><span style=\"font-size: 1rem;\">numerous studies that explore how effective such laws are [11, 12, 13, 14, 15]. In our recent work,&nbsp;</span><span style=\"font-size: 1rem;\">we further show the myriad factors that can influence the efficacy of such laws [7]. However, many&nbsp;</span><span style=\"font-size: 1rem;\">countries (including India) do not have privacy regulations to date. I wish to study the challenges&nbsp;</span><span style=\"font-size: 1rem;\">in developing and implementing such laws (e.g., in a diverse country like India), along with their&nbsp;</span><span style=\"font-size: 1rem;\">technical feasibility and broader impact on organizations and citizens.</span></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u8pO3eqnA8",
+          "_anchor": "content1-2t",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><b>Characterizing Internet Structure, Topology, and Filtering:</b> With the ever-evolving Internet and&nbsp;<span style=\"font-size: 1rem;\">proliferation of content distribution networks (CDNs), developing novel techniques for mapping and&nbsp;</span><span style=\"font-size: 1rem;\">studying the present Internet structure becomes vital [16, 17]. Moreover, technological advancements&nbsp;</span><span style=\"font-size: 1rem;\">like Internet exchange points (IXP) further complicate the peering relationships between Internet&nbsp;</span><span style=\"font-size: 1rem;\">service providers (ISPs) and the existing model of the Internet. Thus, I intend to explore questions&nbsp;</span><span style=\"font-size: 1rem;\">like how effective IXPs are in improving the Internet. Is there any strategic high ground on the&nbsp;</span><span style=\"font-size: 1rem;\">Internet that, if controlled by an adversary, can lead to network-wide attacks? Answering such&nbsp;</span><span style=\"font-size: 1rem;\">questions is essential for national governments because the Internet is both a blessing and a headache&nbsp;</span><span style=\"font-size: 1rem;\">for them. On the one hand, it unlocks great economic and strategic opportunities. On the other&nbsp;</span><span style=\"font-size: 1rem;\">hand, government, military, or emergency services become vulnerable to scans (Shodan), attacks&nbsp;</span><span style=\"font-size: 1rem;\">(DDoS from botnets like Mirai), etc. Thus, individual nation-states can utilize the knowledge of&nbsp;</span><span style=\"font-size: 1rem;\">network structure to make the Internet more robust, accessible, and secure [17].<br><br></span><div><i>Characterizing Internet Filtering: </i>The knowledge of Internet topology can also aid the study of\n</div><div>Internet filtering [16]. Determining the network “choke points” is essential as they are the preferred&nbsp;<span style=\"font-size: 1rem;\">locations for installing the firewalls [18]. In general, Internet filtering is a double-edged sword. On&nbsp;</span><span style=\"font-size: 1rem;\">the one hand, it is used to suppress the free flow of information (e.g., in China), and on the other, it&nbsp;</span><span style=\"font-size: 1rem;\">is essential to eradicate online evils, e.g., illegal drug markets [19]. Thus it becomes crucial to study&nbsp;</span><span style=\"font-size: 1rem;\">the filtering techniques, ways to bypass them, and user perception towards blocking web content.&nbsp;</span><span style=\"font-size: 1rem;\">Therefore, following my existing work [5, 16], I plan to conduct measurement studies with which&nbsp;</span><span style=\"font-size: 1rem;\">one can find the middleboxes/firewalls deployed by different countries to achieve large-scale filtering.&nbsp;</span><span style=\"font-size: 1rem;\">In my recent work [9], we demonstrated that using programmable switches (e.g., P4), firewalls can&nbsp;</span><span style=\"font-size: 1rem;\">be made that achieve effective deep packet inspection.&nbsp;<br></span><span style=\"font-size: 1rem;\">Additionally, I am also interested in answering questions like can one route around these middleboxes?&nbsp;</span><span style=\"font-size: 1rem;\">If yes, can the adversary further improve the filtering techniques? For this research, I intend to use&nbsp;</span><span style=\"font-size: 1rem;\">publicly available (Autonomous Systems) AS datasets, traceroute measurements from the RIPE&nbsp;</span><span style=\"font-size: 1rem;\">atlas project, etc.&nbsp;</span><br></div></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u8pOupufc2",
+          "_anchor": "content1-2u",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><b>Building Anonymous Communication Systems:</b> Anonymity is the state of being not identifiable&nbsp;<span style=\"font-size: 1rem;\">within a set of subjects. Studying and quantifying anonymity is a hard problem, especially over&nbsp;</span><span style=\"font-size: 1rem;\">the Internet. The user’s identity can be leaked at different layers, e.g., application and network&nbsp;</span><span style=\"font-size: 1rem;\">layers. Deployed solutions like Tor provide network layer anonymity to some extent but do not&nbsp;</span><span style=\"font-size: 1rem;\">safeguard users against stronger global passive adversaries. In such scenarios, mixnets provide&nbsp;</span><span style=\"font-size: 1rem;\">stronger anonymity guarantees [4]. The privacy group at KU Leuven has researched these systems&nbsp;</span><span style=\"font-size: 1rem;\">for more than two decades. Very recently, a mixnet-based system called Nym (with hundreds of&nbsp;</span><span style=\"font-size: 1rem;\">Nym relays) [24] was deployed over the Internet, where our group members contributed heavily. I&nbsp;</span><span style=\"font-size: 1rem;\">plan to conduct research fostering such anonymous communication systems in cooperation with&nbsp;</span><span style=\"font-size: 1rem;\">internationally recognized experts in this domain.&nbsp;<br><br></span><div><span style=\"font-size: 1rem;\"><i>Anonymity offered by cryptocurrencies: </i>Another different ecosystem where anonymity is not well&nbsp;</span><span style=\"font-size: 1rem;\">researched is cryptocurrency. Since a cryptocurrency client is associated with a public key (a&nbsp;</span><span style=\"font-size: 1rem;\">pseudonymous identity), there is a notion that they provide anonymity to the users and the</span></div><div>transactions. But academic works show that this is not the case [25, 26], and proposed solutions to&nbsp;<span style=\"font-size: 1rem;\">enhance the anonymity of these crypto schemes [27, 28]. Our recent work demonstrates that even&nbsp;</span><span style=\"font-size: 1rem;\">the proposed solutions do not offer an acceptable anonymity guarantee [10]. Thus I plan to build&nbsp;</span><span style=\"font-size: 1rem;\">effective anonymity-enhancing schemes for cryptocurrency networks.</span></div></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u8pOuFIAZc",
+          "_anchor": "content1-2v",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><b>Examining Authentication Properties of End-to-End (E2E) Encryption: </b>Secure messaging\n<div>applications provide billions of users with E2E encryption to ensure message privacy. A long list\n</div><div>of applications provides this service, including WhatsApp, iMessage, Facebook Messenger, Skype,&nbsp;<span style=\"font-size: 1rem;\">Signal, etc. The application’s underlying encryption protocols vary, though many use the Signal&nbsp;</span><span style=\"font-size: 1rem;\">protocol or some derivation. These protocols offer many security properties, including confidentiality,&nbsp;</span><span style=\"font-size: 1rem;\">deniability, forward and future secrecy, etc.&nbsp;<br></span><span style=\"font-size: 1rem;\">Our recent work demonstrates that Signal (and its derivative) protocols are susceptible to man-in-</span><span style=\"font-size: 1rem;\">the-middle (MITM) attacks, and thus we propose automatic techniques to defend against them&nbsp;</span><span style=\"font-size: 1rem;\">[8]. Similarly, other security properties offered by Signal also warrant attention. For instance,&nbsp;</span><span style=\"font-size: 1rem;\">cryptographic deniability allows the sender of a message to deny they sent it with no cryptographic&nbsp;</span><span style=\"font-size: 1rem;\">evidence to refute their claim. However, deniability requires social and legal acceptance to be&nbsp;</span><span style=\"font-size: 1rem;\">effective. Senders unaware of whether a system supports deniability will be unable to use it.&nbsp;</span><span style=\"font-size: 1rem;\">Moreover, users aware that an app supports deniability may have a false sense of security if they do&nbsp;</span><span style=\"font-size: 1rem;\">not understand deniability’s social or legal acceptance. This can lead to a conundrum where Aisha&nbsp;</span><span style=\"font-size: 1rem;\">claims that she received a message ‘m’ from Dinesh, but he denies sending the message. In our&nbsp;</span><span style=\"font-size: 1rem;\">initial multi-perspective, multi-methods study of user perceptions and expectations of deniability,&nbsp;</span><span style=\"font-size: 1rem;\">we highlight such inconsistencies that can lead to different social engineering attacks [29].&nbsp;</span><span style=\"font-size: 1rem;\">I aim to pursue research in usability security, with a special focus on the Indian population, given&nbsp;</span><span style=\"font-size: 1rem;\">the vast number of heterogeneous Internet users in terms of language, creed, and culture. For an&nbsp;</span><span style=\"font-size: 1rem;\">ordinary user, understanding security properties heavily depends on different social factors.</span></div></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u8pOvjeGRC",
+          "_anchor": "content1-2w",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".counter-container": {
+              "color": "#767676",
+              "ol": {
+                "margin-bottom": "0",
+                "li": {
+                  "margin-bottom": "1rem"
+                },
+                "& when (@stylizedCounters)": {
+                  "counter-reset": "myCounter",
+                  "li": {
+                    "list-style": "none",
+                    "padding-left": ".5rem",
+                    "position": "relative",
+                    "&:before": {
+                      "position": "absolute",
+                      "left": "-56px",
+                      "margin-top": "-10px",
+                      "counter-increment": "myCounter",
+                      "content": "counter(myCounter)",
+                      "display": "inline-block",
+                      "text-align": "center",
+                      "margin": "5px 10px",
+                      "line-height": "40px",
+                      "transition": "all .2s",
+                      "color": "contrast(@counterColor)",
+                      "background": "@counterColor",
+                      "width": "40px",
+                      "height": "40px",
+                      "border-radius": "50%",
+                      "& when (@squareCounters)": {
+                        "border-radius": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "_name": "content11",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><div><b>References:<br><br></b></div><ol>\n                    <li>European Commission, “The general data protection regulation (gdpr) in eu.” https://commission.europa.eu/law/law-topic/data-protection_en, 2023.\n</li><li>J. Sherry, C. Lan, R. A. Popa, and S. Ratnasamy, “Blindbox: Deep packet inspection over encrypted traffic,” in Proceedings of the 2015 ACM conference on special interest group on data communication, pp. 213–226, 2015.\n</li><li>R. Dingledine, N. Mathewson, P. F. Syverson, et al., “Tor: The second-generation onion router.,” in USENIX security symposium, vol. 4, pp. 303–320, 2004.\n</li><li>I. Ben Guirat, Gosain, Devashish, and C. Diaz, “Mixim: Mixnet design decisions and empirical evaluation,” in Proceedings of the 20th Workshop on Workshop on Privacy in the Electronic Society (WPES), co-located with CCS, pp. 33–37, 2021.\n</li><li>T. K. Yadav*, A. Sinha*, Gosain*, Devashish, P. K. Sharma, and S. Chakravarty, “Where The Light Gets In: Analyzing Web Censorship Mechanisms in India,” in Proceedings of the Internet Measurement Conference (IMC) 2018, pp. 252–264, 2018. *Authors contributed equally.\n</li><li>Gosain, Devashish, A. Agarwal, S. Shekhawat, H. B. Acharya, and S. Chakravarty, “Mending wall: On the implementation of censorship in India,” in International Conference on Security and Privacy in Communication Systems (SecureComm), pp. 418–437, Springer, 2017. Best Student Paper Award.\n</li><li>A. Rasaii, S. Singh, Gosain, Devashish, and O. Gasser, “Exploring the Cookieverse: A Multi-Perspective Analysis of Web Cookies,” in International Conference on Passive and Active Network Measurement (PAM), pp. 623–651, Springer, 2023.\n</li><li>T. K. Yadav, Gosain, Devashish, A. Herzberg, D. Zappala, and K. Seamons, “Automatic Detection of Fake Key Attacks in Secure Messaging,” in Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security (CCS), pp. 3019–3032, 2022.\n</li><li>S. Gupta, Gosain, Devashish, M. Kwon, and H. B. Acharya, “DeeP4R: Deep Packet Inspection in P4 using Packet Recirculation,” in IEEE INFOCOM 2023-IEEE Conference on Computer Communications, IEEE, 2023.\n</li><li>P. Kumar Sharma, Gosain, Devashish, and C. Diaz, “On the Anonymity of Peer-To-Peer Network Anonymity Schemes Used by Cryptocurrencies,” in The Network and Distributed System Security Symposium (NDSS), Internet Society, 2023.\n</li><li>V. Morel, C. Santos, Y. Lintao, and S. Human, “Your Consent Is Worth 75 Euros A Year—Measurement and Lawfulness of Cookie Paywalls,” in Proceedings of the 21st Workshop on Privacy in the Electronic Society, pp. 213–218, 2022.\n</li><li>C. Utz, M. Degeling, S. Fahl, F. Schaub, and T. Holz, “(Un) Informed Consent: Studying GDPR Consent Notices In The Field,” in Proceedings of the 2019 acm sigsac conference on computer and communications security, pp. 973–990, 2019.\n</li><li>Z. Yang and C. Yue, “A Comparative Measurement Study of Web Tracking on Mobile and Desktop Environments,” Proceedings on Privacy Enhancing Technologies, vol. 2020, no. 2, 2020.\n</li><li>A. Cahn, S. Alfeld, P. Barford, and S. Muthukrishnan, “An Empirical Study of Web Cookies,” in Proceedings of the 25th international conference on world wide web, pp. 891–901, 2016.\n</li><li>T. Linden, R. Khandelwal, H. Harkous, and K. Fawaz, “The Privacy Policy Landscape After the GDPR,” Proceedings on Privacy Enhancing Technologies, vol. 2020, no. 1, 2020.\n</li><li>Gosain, Devashish, M. Mohindra, and S. Chakravarty, “Too close for comfort: Morasses of (anti-) censorship in the era of cdns.,” Proceedings of Privacy Enhancing Technologies Symposium (PoPETS), vol. 2021, no. 2, pp. 173–193, 2021.\n</li><li>Gosain, Devashish, M. Rawat, P. K. Sharma, and H. B. Acharya, “Maginot lines and tourniquets: on the defendability of national cyberspace,” in 2020 IEEE 45th LCN Symposium on Emerging Topics in Networking (LCN Symposium), pp. 19–30, IEEE, 2020.\n</li><li>H. B. Acharya*, S. Chakravarty*, and Gosain*, Devashish, “Few throats to choke: On the current structure of the internet,” in 2017 IEEE 42nd conference on local computer networks (LCN), pp. 339–346, IEEE, 2017. *Authors equally contributed.\n</li><li>D. S. Dolliver, “Evaluating drug trafficking on the Tor Network: Silk Road 2, the sequel,” International Journal of Drug Policy, vol. 26, no. 11, pp. 1113–1123, 2015.\n</li><li>J.-P. Verkamp and M. Gupta, “Inferring mechanics of web censorship around the world.,” in USENIX workshop on Free and Open Communications on the Internet, 2012.\n</li><li>A. A. Niaki, S. Cho, Z. Weinberg, N. P. Hoang, A. Razaghpanah, N. Christin, and P. Gill, “IClab: a global, longitudinal internet censorship measurement platform,” in IEEE Symposium on Security and Privacy (SP), pp. 135–151, 2020.\n</li><li>R. Clayton, S. J. Murdoch, and R. N. Watson, “Ignoring the Great Firewall of China,” in International workshop on privacy enhancing technologies, pp. 20–35, Springer, 2006.\n</li><li>R. Sundara Raman, P. Shenoy, K. Kohls, and R. Ensafi, “Censored planet: An internet-wide, longitudinal censorship observatory,” in Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security, 2020.\n</li><li>C. Diaz, H. Halpin, and A. Kiayias, “The nym network,” 2021.\n</li><li>A. Biryukov, D. Khovratovich, and I. Pustogarov, “Deanonymisation of clients in bitcoin p2p network,” in Proceedings of the 2014 ACM SIGSAC Conference on Computer and Communications Security, pp. 15–29, 2014.\n</li><li>G. Fanti and P. Viswanath, “Deanonymization in the bitcoin p2p network,” in Proceedings of the 31st International Conference on Neural Information Processing Systems, pp. 1364–1373, 2017.\n</li><li>S. Bojja Venkatakrishnan, G. Fanti, and P. Viswanath, “Dandelion: Redesigning the bitcoin network for anonymity,” Proceedings of the ACM on Measurement and Analysis of Computing Systems, vol. 1, no. 1.\n</li><li>G. Fanti, S. B. Venkatakrishnan, S. Bakshi, B. Denby, S. Bhargava, A. Miller, and P. Viswanath, “Dandelion++ lightweight cryptocurrency networking with formal anonymity guarantees,” Proceedings of the ACM on Measurement and Analysis of Computing Systems, vol. 2, no. 2, pp. 1–35, 2018.</li><li>T. K. Yadav, Gosain, Devashish, and K. Seamons, “Cryptographic deniability: A multi-perspective study of user perceptions and expectations,” in 32nd USENIX Security Symposium (USENIX Security 22), 2023.</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u8qh6UDwiL",
+          "_anchor": "content11-30",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
