@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Devashish Gosain</title>
+<meta name="description" content="Research interests of Devashish Gosain: networks, security, privacy and Internet measurement.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main>
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h1>Research Interests</h1>
+      <span class="section-num mono">THRUSTS</span>
+    </div>
+    <p class="section-intro">
+      My work sits at the confluence of networks, security, and privacy. The goal: design, build, and deploy secure and privacy-preserving technologies that are both scalable and usable — studied through the lens of measurement.
+    </p>
+
+    <!--
+      HOW TO ADD A THRUST: copy one <div class="thrust"> block.
+      Add class "wide" (class="thrust wide") to make a card span both columns
+      — useful when the total count is odd.
+    -->
+    <div class="thrusts">
+      <div class="thrust">
+        <span class="idx mono">01</span>
+        <h3>Internet privacy &amp; data-protection law</h3>
+        <p>Empirically studying regulations such as the GDPR — and the myriad factors that determine whether such laws are effective in practice, including in jurisdictions like India that are still developing them.</p>
+      </div>
+      <div class="thrust">
+        <span class="idx mono">02</span>
+        <h3>Internet structure, topology &amp; filtering</h3>
+        <p>Mapping Internet topology and CDN-era peering to find network "choke points" — and studying the censorship and filtering techniques deployed at them, along with ways to characterize and circumvent them.</p>
+      </div>
+      <div class="thrust">
+        <span class="idx mono">03</span>
+        <h3>Deep packet inspection &amp; routing infrastructure</h3>
+        <p>Building programmable-switch (P4) based routing and firewall infrastructure capable of effective, line-rate deep packet inspection — and studying what such capability means for filtering and defense.</p>
+      </div>
+      <div class="thrust">
+        <span class="idx mono">04</span>
+        <h3>Anonymous communication systems</h3>
+        <p>Designing and evaluating anonymity-enhancing systems — Tor, mixnets (e.g. Nym), and the anonymity guarantees (or lack thereof) of peer-to-peer cryptocurrency networks.</p>
+      </div>
+      <div class="thrust wide">
+        <span class="idx mono">05</span>
+        <h3>Authentication &amp; usable security in end-to-end encryption</h3>
+        <p>Examining the security properties of E2E-encrypted messaging (Signal and its derivatives) — including susceptibility to man-in-the-middle attacks and the social/legal dimensions of cryptographic deniability — with a focus on usable security for India's heterogeneous user base.</p>
+      </div>
+    </div>
+
+    <details class="research-more">
+      <summary class="btn-line">
+        <span class="when-closed">Read the full research statement</span>
+        <span class="when-open">Collapse research statement</span>
+        <svg viewBox="0 0 12 8" fill="none"><path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6"/></svg>
+      </summary>
+      <div class="research-more-body">
+        <h4>Studying data privacy regulations</h4>
+        <p>Online services monetize their audience through advertising and data collection, often without meaningful consent — using third-party trackers to profile browsing activity for targeted content. The GDPR is the most comprehensive regulatory response to date, and a growing body of work examines its real-world efficacy. My research shows the many factors that shape whether such laws actually work — and asks what it would take to design and implement comparable protections in a country like India, which currently has none.</p>
+
+        <h4>Characterizing Internet structure, topology &amp; filtering</h4>
+        <p>As the Internet evolves and CDNs proliferate, mapping its present structure — and the peering relationships IXPs create between ISPs — becomes essential to understanding where strategic high ground lies. Knowing this topology also illuminates where filtering middleboxes are deployed: the network's chokepoints. Filtering itself is double-edged — suppressing free expression in some contexts, curbing illegal markets in others — which is precisely why it warrants careful, empirical study, along with the techniques used to bypass it and how users perceive being blocked. My recent work shows programmable switches (P4) can implement effective deep packet inspection at these chokepoints.</p>
+
+        <h4>Building anonymous communication systems</h4>
+        <p>Anonymity — not being identifiable within a set of subjects — is hard to study and quantify over the Internet, where identity can leak at both the application and network layer. Tor provides network-layer anonymity but not protection against a strong global passive adversary; mixnets, the subject of two decades of research at KU Leuven's COSIC group, offer stronger guarantees, as embodied in systems like Nym. A related, under-studied ecosystem is cryptocurrency: although a public-key identity suggests pseudonymity, academic work — including mine — shows that proposed anonymity-enhancing schemes for these networks frequently fall short of acceptable guarantees.</p>
+
+        <h4>Examining authentication properties of end-to-end encryption</h4>
+        <p>Billions of users rely on E2E encryption in apps like WhatsApp, iMessage, and Signal for message privacy, most built on the Signal protocol or a derivative. These protocols promise confidentiality, deniability, and forward/future secrecy — but my work shows Signal-derived protocols remain susceptible to man-in-the-middle attacks, motivating automatic defenses. Deniability in particular is subtle: it requires social and legal acceptance to be meaningful, and our multi-perspective study of user expectations surfaces inconsistencies that can enable social-engineering attacks. I aim to pursue usable-security research with particular attention to India's linguistically and culturally diverse user base.</p>
+      </div>
+    </details>
+  </div>
+</section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="js/layout.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
